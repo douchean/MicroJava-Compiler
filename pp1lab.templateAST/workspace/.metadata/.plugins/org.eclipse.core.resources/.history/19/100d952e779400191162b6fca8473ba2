@@ -1,0 +1,98 @@
+// generated with ast extension for cup
+// version 0.8
+// 20/5/2019 22:57:46
+
+
+package rs.ac.bg.etf.pp1.ast;
+
+public class StatementIfElse extends Statement {
+
+    private BasicIf BasicIf;
+    private Else Else;
+    private Statement Statement;
+
+    public StatementIfElse (BasicIf BasicIf, Else Else, Statement Statement) {
+        this.BasicIf=BasicIf;
+        if(BasicIf!=null) BasicIf.setParent(this);
+        this.Else=Else;
+        if(Else!=null) Else.setParent(this);
+        this.Statement=Statement;
+        if(Statement!=null) Statement.setParent(this);
+    }
+
+    public BasicIf getBasicIf() {
+        return BasicIf;
+    }
+
+    public void setBasicIf(BasicIf BasicIf) {
+        this.BasicIf=BasicIf;
+    }
+
+    public Else getElse() {
+        return Else;
+    }
+
+    public void setElse(Else Else) {
+        this.Else=Else;
+    }
+
+    public Statement getStatement() {
+        return Statement;
+    }
+
+    public void setStatement(Statement Statement) {
+        this.Statement=Statement;
+    }
+
+    public void accept(Visitor visitor) {
+        visitor.visit(this);
+    }
+
+    public void childrenAccept(Visitor visitor) {
+        if(BasicIf!=null) BasicIf.accept(visitor);
+        if(Else!=null) Else.accept(visitor);
+        if(Statement!=null) Statement.accept(visitor);
+    }
+
+    public void traverseTopDown(Visitor visitor) {
+        accept(visitor);
+        if(BasicIf!=null) BasicIf.traverseTopDown(visitor);
+        if(Else!=null) Else.traverseTopDown(visitor);
+        if(Statement!=null) Statement.traverseTopDown(visitor);
+    }
+
+    public void traverseBottomUp(Visitor visitor) {
+        if(BasicIf!=null) BasicIf.traverseBottomUp(visitor);
+        if(Else!=null) Else.traverseBottomUp(visitor);
+        if(Statement!=null) Statement.traverseBottomUp(visitor);
+        accept(visitor);
+    }
+
+    public String toString(String tab) {
+        StringBuffer buffer=new StringBuffer();
+        buffer.append(tab);
+        buffer.append("StatementIfElse(\n");
+
+        if(BasicIf!=null)
+            buffer.append(BasicIf.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
+        buffer.append("\n");
+
+        if(Else!=null)
+            buffer.append(Else.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
+        buffer.append("\n");
+
+        if(Statement!=null)
+            buffer.append(Statement.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
+        buffer.append("\n");
+
+        buffer.append(tab);
+        buffer.append(") [StatementIfElse]");
+        return buffer.toString();
+    }
+}

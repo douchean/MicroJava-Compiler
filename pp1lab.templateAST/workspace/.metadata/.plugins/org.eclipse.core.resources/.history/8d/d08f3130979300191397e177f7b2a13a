@@ -1,0 +1,47 @@
+program test1
+
+int i;
+int x;
+bool ibool;
+bool jbool;
+char c;
+
+{
+	
+	int inc(int a) int adder;
+	{
+		adder = 1;
+		return a + adder;
+	}
+	
+	void setCharC(char a)
+	{
+		c = a;
+	}
+	
+	void main()
+	{
+		
+		jbool = false;
+		ibool = jbool;
+		
+		i = 0;
+		x = 0;
+		for(i=0;i<5;i++)
+		{
+			x = inc(x);
+		}
+		
+		x = inc(x);
+		
+		print(x);
+		
+		setCharC('p');
+		print(c);
+		
+		read(i);
+		print(x + i);
+		print(ibool);
+		
+	}
+}

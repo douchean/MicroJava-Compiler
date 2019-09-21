@@ -1,0 +1,51 @@
+//Test 2
+
+program test2
+
+enum Months { January, February, March, April, May, June, July, August, September, October, November, December }
+enum Days { Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday }
+
+int day;
+int d;
+bool ibool;
+
+char f;
+char s;
+
+int niz[];
+{
+	
+	int getDay(char fst, char snd)
+	{
+		day = 0;
+		
+		if(fst == 'm' && snd == 'o') { day = 1; }
+		
+		if(fst == 't' && snd == 'u') { day = 2; }
+		
+		if(fst == 'w' && snd == 'e') {	day = 3; }
+		
+		if(fst == 't' && snd == 'h') {	day = 4; }
+		
+		if(fst == 'f' && snd == 'r') {	day = 5; }
+		 
+		if(fst == 's' && snd == 'a') {	day = 6; }
+		
+		if(fst == 's' && snd == 'u') {	day = 7; }
+		
+		
+		return day;
+	}
+	
+	
+	void main()
+	{
+		niz = new int[5]{Days.Monday, Days.Tuesday, Days.Wednesday, Days.Thursday, Days.Friday, Days.Saturday, Days.Sunday};
+		
+		read(f);
+		read(s);
+		
+		d = getDay(f, s);
+		print(d);
+	}
+}

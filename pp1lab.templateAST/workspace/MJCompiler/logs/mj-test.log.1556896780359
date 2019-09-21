@@ -1,0 +1,74 @@
+INFO  17:18:18,251 - Compiling source file: C:\Users\Dusan\Desktop\pp1lab.templateAST\pp1Projekat\workspace\MJCompiler\test\program.mj
+INFO  17:18:18,617 - #2 program
+INFO  17:18:18,617 - #15 MJProgram
+INFO  17:18:18,617 - #15 int
+INFO  17:18:18,621 - #15 x
+INFO  17:18:18,623 - #5 ;
+INFO  17:18:18,629 - #15 int
+INFO  17:18:18,631 - #15 y
+INFO  17:18:18,631 - #5 ;
+INFO  17:18:18,631 - #3 {
+INFO  17:18:18,632 - #15 int
+INFO  17:18:18,635 - #15 k
+INFO  17:18:18,635 - #6 (
+INFO  17:18:18,635 - #7 )
+INFO  17:18:18,635 - #15 int
+INFO  17:18:18,639 - #15 c
+INFO  17:18:18,639 - #5 ;
+INFO  17:18:18,639 - #3 {
+INFO  17:18:18,640 - #15 c
+INFO  17:18:18,642 - #12 =
+INFO  17:18:18,642 - #46 1
+INFO  17:18:18,644 - #5 ;
+INFO  17:18:18,645 - #10 return
+INFO  17:18:18,646 - #15 c
+INFO  17:18:18,646 - #11 +
+INFO  17:18:18,646 - #46 2
+INFO  17:18:18,650 - #5 ;
+INFO  17:18:18,650 - #4 }
+INFO  17:18:18,651 - #15 int
+INFO  17:18:18,664 - #15 main
+INFO  17:18:18,665 - #6 (
+INFO  17:18:18,666 - #7 )
+INFO  17:18:18,666 - #3 {
+INFO  17:18:18,666 - #15 y
+INFO  17:18:18,666 - #12 =
+INFO  17:18:18,666 - #46 2
+INFO  17:18:18,667 - #5 ;
+INFO  17:18:18,667 - #15 x
+INFO  17:18:18,667 - #12 =
+INFO  17:18:18,667 - #15 y
+INFO  17:18:18,667 - #11 +
+INFO  17:18:18,668 - #46 2
+INFO  17:18:18,668 - #5 ;
+INFO  17:18:18,669 - #15 y
+INFO  17:18:18,669 - #12 =
+INFO  17:18:18,669 - #15 k
+INFO  17:18:18,669 - #6 (
+INFO  17:18:18,670 - #7 )
+INFO  17:18:18,671 - #11 +
+INFO  17:18:18,671 - #46 3
+INFO  17:18:18,672 - #5 ;
+INFO  17:18:18,672 - #9 print
+INFO  17:18:18,672 - #6 (
+INFO  17:18:18,673 - #15 y
+INFO  17:18:18,673 - #7 )
+INFO  17:18:18,673 - #5 ;
+INFO  17:18:18,673 - #10 return
+INFO  17:18:18,674 - #46 0
+INFO  17:18:18,674 - #5 ;
+INFO  17:18:18,674 - #4 }
+INFO  17:18:18,683 - #4 }
+INFO  17:18:18,766 - Deklarisana promenljiva x na liniji 2
+INFO  17:18:18,769 - Deklarisana promenljiva y na liniji 2
+INFO  17:18:18,769 - Deklarisana promenljiva c na liniji 5
+INFO  17:18:18,769 - Koristi se c na liniji 6
+INFO  17:18:18,770 - Koristi se c na liniji 7
+INFO  17:18:18,770 - Koristi se y na liniji 11
+INFO  17:18:18,770 - Koristi se x na liniji 12
+INFO  17:18:18,770 - Koristi se y na liniji 12
+INFO  17:18:18,770 - Koristi se y na liniji 13
+INFO  17:18:18,770 - Koristi se k na liniji 13
+INFO  17:18:18,770 - Koristi se y na liniji 14
+ERROR 17:18:18,771 - U programu mora postojati main funkcija!
+ERROR 17:18:18,772 - Parsiranje NIJE uspesno zavrseno!

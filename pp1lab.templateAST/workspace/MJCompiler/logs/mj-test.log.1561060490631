@@ -1,0 +1,325 @@
+INFO  21:54:04,876 - Compiling source file: C:\Users\Dusan\Desktop\micko\pp1lab.templateAST\workspace\MJCompiler\test\test301.mj
+INFO  21:54:05,195 - #2 program
+INFO  21:54:05,196 - #15 nivoA
+INFO  21:54:05,196 - #15 char
+INFO  21:54:05,200 - #15 text
+INFO  21:54:05,202 - #41 [
+INFO  21:54:05,202 - #42 ]
+INFO  21:54:05,202 - #5 ;
+INFO  21:54:05,206 - #15 int
+INFO  21:54:05,207 - #15 numbers
+INFO  21:54:05,207 - #41 [
+INFO  21:54:05,207 - #42 ]
+INFO  21:54:05,207 - #5 ;
+INFO  21:54:05,207 - #40 enum
+INFO  21:54:05,208 - #15 Color
+INFO  21:54:05,208 - #3 {
+INFO  21:54:05,209 - #15 BELA
+INFO  21:54:05,210 - #8 ,
+INFO  21:54:05,210 - #15 PLAVA
+INFO  21:54:05,210 - #12 =
+INFO  21:54:05,211 - #47 3
+INFO  21:54:05,211 - #8 ,
+INFO  21:54:05,212 - #15 CRVENA
+INFO  21:54:05,212 - #4 }
+INFO  21:54:05,212 - #39 const
+INFO  21:54:05,214 - #15 int
+INFO  21:54:05,215 - #15 first
+INFO  21:54:05,215 - #12 =
+INFO  21:54:05,215 - #47 1
+INFO  21:54:05,215 - #5 ;
+INFO  21:54:05,216 - #15 bool
+INFO  21:54:05,218 - #15 flag
+INFO  21:54:05,218 - #5 ;
+INFO  21:54:05,219 - #3 {
+INFO  21:54:05,219 - #13 void
+INFO  21:54:05,221 - #15 main
+INFO  21:54:05,221 - #6 (
+INFO  21:54:05,221 - #7 )
+INFO  21:54:05,221 - #15 int
+INFO  21:54:05,223 - #15 res
+INFO  21:54:05,224 - #5 ;
+INFO  21:54:05,224 - #15 Color
+INFO  21:54:05,224 - #15 col1
+INFO  21:54:05,224 - #8 ,
+INFO  21:54:05,224 - #15 col2
+INFO  21:54:05,224 - #8 ,
+INFO  21:54:05,226 - #15 col3
+INFO  21:54:05,226 - #5 ;
+INFO  21:54:05,226 - #3 {
+INFO  21:54:05,226 - #15 col1
+INFO  21:54:05,227 - #12 =
+INFO  21:54:05,228 - #15 Color
+INFO  21:54:05,229 - #28 .
+INFO  21:54:05,229 - #15 BELA
+INFO  21:54:05,229 - #5 ;
+INFO  21:54:05,230 - #15 col2
+INFO  21:54:05,233 - #12 =
+INFO  21:54:05,233 - #15 Color
+INFO  21:54:05,233 - #28 .
+INFO  21:54:05,233 - #15 CRVENA
+INFO  21:54:05,242 - #5 ;
+INFO  21:54:05,244 - #15 col3
+INFO  21:54:05,244 - #12 =
+INFO  21:54:05,244 - #15 Color
+INFO  21:54:05,244 - #28 .
+INFO  21:54:05,244 - #15 PLAVA
+INFO  21:54:05,245 - #5 ;
+INFO  21:54:05,245 - #15 res
+INFO  21:54:05,245 - #12 =
+INFO  21:54:05,245 - #47 0
+INFO  21:54:05,245 - #5 ;
+INFO  21:54:05,246 - #15 res
+INFO  21:54:05,246 - #22 ++
+INFO  21:54:05,246 - #5 ;
+INFO  21:54:05,246 - #15 res
+INFO  21:54:05,246 - #12 =
+INFO  21:54:05,246 - #15 res
+INFO  21:54:05,246 - #11 +
+INFO  21:54:05,247 - #15 col1
+INFO  21:54:05,255 - #5 ;
+INFO  21:54:05,256 - #15 res
+INFO  21:54:05,256 - #12 =
+INFO  21:54:05,256 - #15 res
+INFO  21:54:05,257 - #35 *
+INFO  21:54:05,257 - #15 col2
+INFO  21:54:05,260 - #5 ;
+INFO  21:54:05,261 - #15 res
+INFO  21:54:05,262 - #12 =
+INFO  21:54:05,262 - #15 res
+INFO  21:54:05,262 - #26 -
+INFO  21:54:05,262 - #15 col3
+INFO  21:54:05,266 - #5 ;
+INFO  21:54:05,266 - #15 res
+INFO  21:54:05,267 - #23 --
+INFO  21:54:05,267 - #5 ;
+INFO  21:54:05,267 - #9 print
+INFO  21:54:05,267 - #6 (
+INFO  21:54:05,268 - #15 res
+INFO  21:54:05,268 - #7 )
+INFO  21:54:05,268 - #5 ;
+INFO  21:54:05,268 - #15 flag
+INFO  21:54:05,269 - #12 =
+INFO  21:54:05,269 - #49 true
+INFO  21:54:05,269 - #5 ;
+INFO  21:54:05,269 - #16 if
+INFO  21:54:05,270 - #6 (
+INFO  21:54:05,270 - #15 flag
+INFO  21:54:05,270 - #29 ==
+INFO  21:54:05,270 - #49 true
+INFO  21:54:05,272 - #7 )
+INFO  21:54:05,275 - #3 {
+INFO  21:54:05,275 - #15 numbers
+INFO  21:54:05,275 - #12 =
+INFO  21:54:05,275 - #27 new
+INFO  21:54:05,275 - #15 int
+INFO  21:54:05,275 - #41 [
+INFO  21:54:05,275 - #47 2
+INFO  21:54:05,275 - #42 ]
+INFO  21:54:05,275 - #5 ;
+INFO  21:54:05,277 - #15 numbers
+INFO  21:54:05,277 - #41 [
+INFO  21:54:05,278 - #15 col1
+INFO  21:54:05,278 - #42 ]
+INFO  21:54:05,278 - #12 =
+INFO  21:54:05,279 - #47 0
+INFO  21:54:05,279 - #5 ;
+INFO  21:54:05,279 - #15 numbers
+INFO  21:54:05,279 - #41 [
+INFO  21:54:05,279 - #47 1
+INFO  21:54:05,279 - #42 ]
+INFO  21:54:05,280 - #12 =
+INFO  21:54:05,280 - #15 Color
+INFO  21:54:05,280 - #28 .
+INFO  21:54:05,280 - #15 CRVENA
+INFO  21:54:05,280 - #5 ;
+INFO  21:54:05,281 - #15 res
+INFO  21:54:05,281 - #12 =
+INFO  21:54:05,281 - #15 numbers
+INFO  21:54:05,281 - #41 [
+INFO  21:54:05,282 - #47 1
+INFO  21:54:05,282 - #42 ]
+INFO  21:54:05,282 - #36 /
+INFO  21:54:05,282 - #15 numbers
+INFO  21:54:05,283 - #41 [
+INFO  21:54:05,283 - #47 0
+INFO  21:54:05,283 - #42 ]
+INFO  21:54:05,283 - #5 ;
+INFO  21:54:05,283 - #9 print
+INFO  21:54:05,284 - #6 (
+INFO  21:54:05,284 - #15 res
+INFO  21:54:05,284 - #7 )
+INFO  21:54:05,284 - #5 ;
+INFO  21:54:05,284 - #4 }
+INFO  21:54:05,284 - #15 text
+INFO  21:54:05,284 - #12 =
+INFO  21:54:05,284 - #27 new
+INFO  21:54:05,284 - #15 char
+INFO  21:54:05,285 - #41 [
+INFO  21:54:05,285 - #47 3
+INFO  21:54:05,285 - #42 ]
+INFO  21:54:05,285 - #5 ;
+INFO  21:54:05,285 - #15 text
+INFO  21:54:05,285 - #41 [
+INFO  21:54:05,285 - #15 Color
+INFO  21:54:05,285 - #28 .
+INFO  21:54:05,285 - #15 BELA
+INFO  21:54:05,285 - #42 ]
+INFO  21:54:05,285 - #12 =
+INFO  21:54:05,286 - #48 a
+INFO  21:54:05,286 - #5 ;
+INFO  21:54:05,286 - #15 text
+INFO  21:54:05,286 - #41 [
+INFO  21:54:05,286 - #15 first
+INFO  21:54:05,286 - #42 ]
+INFO  21:54:05,286 - #12 =
+INFO  21:54:05,286 - #48 b
+INFO  21:54:05,286 - #5 ;
+INFO  21:54:05,286 - #15 text
+INFO  21:54:05,287 - #41 [
+INFO  21:54:05,287 - #15 col3
+INFO  21:54:05,287 - #42 ]
+INFO  21:54:05,287 - #12 =
+INFO  21:54:05,287 - #48 c
+INFO  21:54:05,287 - #5 ;
+INFO  21:54:05,287 - #9 print
+INFO  21:54:05,287 - #6 (
+INFO  21:54:05,288 - #15 text
+INFO  21:54:05,288 - #41 [
+INFO  21:54:05,288 - #47 2
+INFO  21:54:05,288 - #26 -
+INFO  21:54:05,288 - #47 1
+INFO  21:54:05,288 - #42 ]
+INFO  21:54:05,288 - #7 )
+INFO  21:54:05,288 - #5 ;
+INFO  21:54:05,288 - #9 print
+INFO  21:54:05,288 - #6 (
+INFO  21:54:05,288 - #15 text
+INFO  21:54:05,288 - #41 [
+INFO  21:54:05,289 - #15 first
+INFO  21:54:05,289 - #35 *
+INFO  21:54:05,289 - #47 2
+INFO  21:54:05,289 - #42 ]
+INFO  21:54:05,289 - #7 )
+INFO  21:54:05,289 - #5 ;
+INFO  21:54:05,289 - #15 res
+INFO  21:54:05,289 - #12 =
+INFO  21:54:05,289 - #15 res
+INFO  21:54:05,289 - #11 +
+INFO  21:54:05,289 - #6 (
+INFO  21:54:05,289 - #6 (
+INFO  21:54:05,289 - #15 first
+INFO  21:54:05,290 - #35 *
+INFO  21:54:05,290 - #15 first
+INFO  21:54:05,290 - #26 -
+INFO  21:54:05,290 - #47 1
+INFO  21:54:05,290 - #7 )
+INFO  21:54:05,290 - #35 *
+INFO  21:54:05,290 - #47 2
+INFO  21:54:05,290 - #26 -
+INFO  21:54:05,290 - #6 (
+INFO  21:54:05,290 - #47 3
+INFO  21:54:05,290 - #37 %
+INFO  21:54:05,290 - #47 2
+INFO  21:54:05,291 - #11 +
+INFO  21:54:05,291 - #47 3
+INFO  21:54:05,292 - #35 *
+INFO  21:54:05,292 - #47 2
+INFO  21:54:05,292 - #26 -
+INFO  21:54:05,292 - #47 3
+INFO  21:54:05,292 - #7 )
+INFO  21:54:05,292 - #26 -
+INFO  21:54:05,292 - #6 (
+INFO  21:54:05,292 - #15 Color
+INFO  21:54:05,292 - #28 .
+INFO  21:54:05,293 - #15 Crvena
+INFO  21:54:05,293 - #26 -
+INFO  21:54:05,293 - #47 3
+INFO  21:54:05,293 - #7 )
+INFO  21:54:05,293 - #35 *
+INFO  21:54:05,293 - #47 0
+INFO  21:54:05,293 - #7 )
+INFO  21:54:05,293 - #5 ;
+INFO  21:54:05,293 - #9 print
+INFO  21:54:05,293 - #6 (
+INFO  21:54:05,293 - #15 res
+INFO  21:54:05,293 - #7 )
+INFO  21:54:05,293 - #5 ;
+INFO  21:54:05,294 - #21 read
+INFO  21:54:05,294 - #6 (
+INFO  21:54:05,294 - #15 res
+INFO  21:54:05,294 - #7 )
+INFO  21:54:05,295 - #5 ;
+INFO  21:54:05,295 - #15 res
+INFO  21:54:05,295 - #12 =
+INFO  21:54:05,295 - #15 res
+INFO  21:54:05,295 - #11 +
+INFO  21:54:05,298 - #47 1
+INFO  21:54:05,298 - #5 ;
+INFO  21:54:05,298 - #9 print
+INFO  21:54:05,298 - #6 (
+INFO  21:54:05,298 - #15 res
+INFO  21:54:05,298 - #7 )
+INFO  21:54:05,298 - #5 ;
+INFO  21:54:05,298 - #4 }
+INFO  21:54:05,299 - #4 }
+INFO  21:54:05,410 - Koristi se lokalna promenljiva Var col1: int, 1, 1  na liniji 17
+INFO  21:54:05,411 - Koristi se lokalna promenljiva Var col2: int, 2, 1  na liniji 18
+INFO  21:54:05,411 - Koristi se lokalna promenljiva Var col3: int, 3, 1  na liniji 19
+INFO  21:54:05,411 - Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 21
+INFO  21:54:05,411 - Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 22
+INFO  21:54:05,411 - Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 23
+INFO  21:54:05,412 - Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 23
+INFO  21:54:05,412 - Koristi se lokalna promenljiva Var col1: int, 1, 1  na liniji 23
+INFO  21:54:05,412 - Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 24
+INFO  21:54:05,413 - Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 24
+INFO  21:54:05,413 - Koristi se lokalna promenljiva Var col2: int, 2, 1  na liniji 24
+INFO  21:54:05,413 - Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 25
+INFO  21:54:05,413 - Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 25
+INFO  21:54:05,413 - Koristi se lokalna promenljiva Var col3: int, 3, 1  na liniji 25
+INFO  21:54:05,413 - Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 26
+INFO  21:54:05,413 - Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 27
+INFO  21:54:05,414 - Koristi se globalna promenljiva Var flag: , 2, 0  na liniji 29
+INFO  21:54:05,415 - Koristi se globalna promenljiva Var flag: , 2, 0  na liniji 31
+INFO  21:54:05,415 - Koristi se globalna promenljiva Var numbers: Arr of int, 1, 0  na liniji 32
+INFO  21:54:05,415 - Koristi se globalna promenljiva Var numbers: Arr of int, 1, 0  na liniji 33
+INFO  21:54:05,416 - Koristi se lokalna promenljiva Var col1: int, 1, 1  na liniji 33
+INFO  21:54:05,416 - Koristi se element niza : int, -1, -1  na liniji 33
+INFO  21:54:05,416 - Koristi se globalna promenljiva Var numbers: Arr of int, 1, 0  na liniji 35
+INFO  21:54:05,416 - Koristi se element niza : int, -1, -1  na liniji 35
+INFO  21:54:05,416 - Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 36
+INFO  21:54:05,416 - Koristi se globalna promenljiva Var numbers: Arr of int, 1, 0  na liniji 36
+INFO  21:54:05,416 - Koristi se element niza : int, -1, -1  na liniji 36
+INFO  21:54:05,417 - Koristi se globalna promenljiva Var numbers: Arr of int, 1, 0  na liniji 36
+INFO  21:54:05,417 - Koristi se element niza : int, -1, -1  na liniji 36
+INFO  21:54:05,417 - Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 37
+INFO  21:54:05,417 - Koristi se globalna promenljiva Var text: Arr of char, 0, 0  na liniji 40
+INFO  21:54:05,417 - Koristi se globalna promenljiva Var text: Arr of char, 0, 0  na liniji 41
+INFO  21:54:05,417 - Koristi se element niza : char, -1, -1  na liniji 41
+INFO  21:54:05,418 - Koristi se globalna promenljiva Var text: Arr of char, 0, 0  na liniji 42
+INFO  21:54:05,418 - Koristi se konstanta Con first: int, 1, 0  na liniji 42
+INFO  21:54:05,418 - Koristi se element niza : char, -1, -1  na liniji 42
+INFO  21:54:05,418 - Koristi se globalna promenljiva Var text: Arr of char, 0, 0  na liniji 43
+INFO  21:54:05,418 - Koristi se lokalna promenljiva Var col3: int, 3, 1  na liniji 43
+INFO  21:54:05,418 - Koristi se element niza : char, -1, -1  na liniji 43
+INFO  21:54:05,419 - Koristi se globalna promenljiva Var text: Arr of char, 0, 0  na liniji 44
+INFO  21:54:05,419 - Koristi se element niza : char, -1, -1  na liniji 44
+INFO  21:54:05,419 - Koristi se globalna promenljiva Var text: Arr of char, 0, 0  na liniji 45
+INFO  21:54:05,419 - Koristi se konstanta Con first: int, 1, 0  na liniji 45
+INFO  21:54:05,419 - Koristi se element niza : char, -1, -1  na liniji 45
+INFO  21:54:05,419 - Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 48
+INFO  21:54:05,420 - Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 48
+INFO  21:54:05,420 - Koristi se konstanta Con first: int, 1, 0  na liniji 48
+INFO  21:54:05,420 - Koristi se konstanta Con first: int, 1, 0  na liniji 48
+ERROR 21:54:05,421 - Greska na liniji 48 : identifikator Crvena nije deklarisan u okviru dezignatora!  na liniji 48
+ERROR 21:54:05,421 - Greska na liniji 48 : nekompatibilni tipovi u izrazu za sabiranje.
+ERROR 21:54:05,422 - Greska na liniji 48 : nekompatibilni tipovi u izrazu za mnozenje.
+ERROR 21:54:05,422 - Greska na liniji 48 : nekompatibilni tipovi u izrazu za sabiranje.
+ERROR 21:54:05,422 - Greska na liniji 48 : nekompatibilni tipovi u izrazu za sabiranje.
+ERROR 21:54:05,422 - Greska na liniji 48 : dezignator res mora biti kompatibilan sa izrazom! 
+INFO  21:54:05,422 - Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 49
+INFO  21:54:05,423 - Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 52
+INFO  21:54:05,423 - Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 53
+INFO  21:54:05,423 - Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 53
+INFO  21:54:05,426 - Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 54
+ERROR 21:54:05,426 - Parsiranje NIJE uspesno zavrseno!

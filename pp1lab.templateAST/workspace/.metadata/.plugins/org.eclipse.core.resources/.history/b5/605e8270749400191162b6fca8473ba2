@@ -1,0 +1,34 @@
+
+program nivoA
+
+	char nizch[];
+	int niz[];
+	
+	enum Brojevi { NULA, TRI=3, CETIRI}
+
+	const int first = 1;
+	bool flag;
+	int i;
+	
+{
+	void main()	
+		int res;
+		Brojevi col1, col2, col3;
+	{
+		
+			
+		flag = true;
+		
+		i = 0;
+		for (; i < 3 AND flag == true; ){
+			print('r');
+			i++;
+		}
+		
+		
+			
+	
+	}
+}
+
+

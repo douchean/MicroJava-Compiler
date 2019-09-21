@@ -1,0 +1,60 @@
+
+program nivoA
+
+	char nizch[];
+	int niz[];
+	
+	enum Brojevi { NULA, TRI=3, CETIRI}
+
+	const int first = 1;
+	bool flag;
+	
+{
+	void main()	
+		int res;
+		Brojevi col1, col2, col3;
+	{
+		col1 = Brojevi.NULA;
+		col2 = Brojevi.CETIRI;	
+		col3 = Brojevi.TRI;
+
+		res = 0;
+		res++;
+		res = res + col1;
+		res = res * col2;
+		res = res - col3;
+		res--;
+		print(res);
+			
+		flag = true;
+		
+		if (flag == true){
+			niz = new int[2];
+			niz[col1] = 0;
+			//niz[1] = Brojevi.CETIRI;
+			niz[1] = Brojevi.CETIRI;
+			res = niz[1]/niz[0];
+			print(res);
+		}
+		
+		nizch = new char[3];
+		nizch[Brojevi.NULA] = 'a';
+		nizch[first] = 'b';
+		nizch[col3] = 'c';
+		print( nizch[2 - 1]);
+		print( nizch[first * 2]);
+			
+		
+		res = res + ((first * first - 1) * 2 - (3 % 2 + 3 * 2 - 3) - (Brojevi.CETIRI - 3) * 0); 
+		print(res);
+			
+			
+		read(res);
+		res = res + 1;
+		print(res);
+			
+	
+	}
+}
+
+

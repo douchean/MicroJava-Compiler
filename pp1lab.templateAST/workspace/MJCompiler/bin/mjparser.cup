@@ -1,0 +1,464 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+
+// import java.io.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+
+parser code {:
+	
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+    
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+terminal PROG, LBRACE, RBRACE, SEMI, LPAREN, RPAREN, COMMA, PRINT, RETURN, PLUS, EQUAL, VOID;
+terminal Integer NUMBER ;
+terminal String IDENT ;
+terminal IF, ELSE, FOR;
+terminal BREAK, CONTINUE, READ, INCREMENT, DECREMENT, OR, AND, MINUS, NEW, DOT;
+terminal RELEQUAL, NEQUAL, GREATER, GEQUAL, LESS, LEQUAL, MUL, DIV, PERCENT;
+
+terminal POW;
+
+terminal CONST, ENUM, LBRACKET, RBRACKET, CLASS, EXTENDS, IMPLEMENTS, INTERFACE;
+terminal Integer NUMCONST ;
+terminal Character CHARCONST;
+terminal Boolean BOOLCONST;
+
+nonterminal MethodDeclList, VarDecl;
+nonterminal ActualPars, ActualParamList; 
+nonterminal StatementList, Statement, Addop;
+
+nonterminal FormalParamList, FormalParamDecl;
+
+nonterminal ProgDeclList, ConstDecl, ClassDecl, EnumDecl, InterfaceDecl;
+nonterminal ConstExprList, ConstType;
+nonterminal EnumExprList, EnumExpr;
+nonterminal VarExprList, VarExpr;
+nonterminal Extension, Implementation, ClassImplementsList;
+nonterminal InterfaceMethodDeclList, InterfaceMethodDecl;
+nonterminal FormParsArg, FormPars, OptionalBrackets;
+nonterminal DesignatorStatement, VarDeclList;
+nonterminal OptionalDesignatorStatement, OptionalCondition;
+nonterminal ActPars, ActPar, Condition, CondTerm, CondFact;
+nonterminal Program, Assignop, Relop, Mulop, MethodDecl;
+nonterminal TypeBrackets, ArrayDes, BasicIf, IfCond, Else;
+nonterminal Sammy, RePare, NewTypeArr, ArrayParts, Emptiness;
+nonterminal Oreo, Andy, ArrPart;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Designator, MethodTypeName, EnumName; // EnumName dodati ovde
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Term, Expr, Factor, TermList, Powfact; 
+
+precedence left ELSE;
+
+
+Program ::= (Program) PROG ProgName ProgDeclList LBRACE MethodDeclList RBRACE 
+			;
+
+ProgName ::= (ProgName) IDENT:pName 
+			 ;
+
+ProgDeclList ::= (ProgramConstants) ProgDeclList ConstDecl
+				 |
+				 (ProgramVariables) ProgDeclList VarDecl
+				 |
+				 (ProgramDeclarations) ProgDeclList ClassDecl
+				 |
+				 (ProgramEnums) ProgDeclList EnumDecl
+				 |
+				 (ProgramInterfaces) ProgDeclList InterfaceDecl
+				 |
+				 (ProgramEmpty)
+				 ;
+				 
+
+MethodDeclList ::=  (MethodDeclarations) MethodDeclList MethodDecl
+					|
+					(NoMethodDecl)
+					;
+			
+		
+ConstDecl ::= (ConstDecl) CONST Type ConstExprList SEMI
+			  ;
+			  
+ConstExprList ::= (ConstExpressions) ConstExprList COMMA ConstType
+				  |
+				  (ConstExpressionSingle) ConstType
+				  ;
+
+// tri visita za svaku izvedenu klasu, ubacujemo ih u tabelu simbola				  
+ConstType ::= (ConstantNumber) IDENT:var EQUAL NUMCONST:numvalue // imenovati terminale koji se parsiraju po regex-u
+			  |
+			  (ConstantCharacter) IDENT:var EQUAL CHARCONST:charvalue
+			  |
+			  (ConstantBoolean) IDENT:var EQUAL BOOLCONST:boolvalue
+			  ;
+ 					
+EnumDecl ::= (EnumDecl) ENUM EnumName LBRACE EnumExprList RBRACE //izdvojiti ime u neterminal
+		  	 ;
+		  	 
+EnumName ::= (EnumName) IDENT:name
+			 ;
+	
+EnumExprList ::= (EnumExpressions) EnumExprList COMMA EnumExpr
+				 |
+				 (EnumExpressionSingle) EnumExpr
+				 ;
+				 
+// 2 visita za svaku izvedenu klasu, ubacujemo ih u tabelu simbola kao konstante tipa int
+EnumExpr ::= (EnumExpressionIdent) IDENT:name
+			 |
+			 (EnumExpressionIdentNumConst) IDENT:name EQUAL NUMCONST:number
+			 ;
+				
+VarDecl ::= (VarDeclaration) Type VarExprList SEMI 
+			|
+			(VarDeclError) Type error SEMI
+			;		  
+
+VarExprList ::= (VarExpressions) VarExprList COMMA VarExpr
+				|
+				(VarExpressionsError) error COMMA VarExpr
+				|
+				(VarExpressionSingle) VarExpr
+				;
+				
+// visit ubacujemo ih u tabelu simbola				
+VarExpr ::= (VarExpr) IDENT:name OptionalBrackets // OptionalBrackets instanceof ExistingBrackets => new Struct(Struct.Array, lastVisited)
+			;
+			
+ClassDecl ::= (ClassDeclaration) CLASS IDENT:cname Extension Implementation LBRACE VarDeclList RBRACE
+			  |
+			  (ClassDeclarationMethods) CLASS IDENT:cname Extension Implementation LBRACE VarDeclList LBRACE MethodDeclList RBRACE RBRACE    
+			  ;
+			  
+Extension ::= (ExtendsClass) EXTENDS Type
+			  |
+			  (NoExtendsClass)
+			  ;
+					
+Implementation ::= (Implement) IMPLEMENTS ClassImplementsList
+				   |
+				   (NoImplement)
+				   ;	
+					
+ClassImplementsList	::= (ClassImplementList) ClassImplementsList COMMA Type
+						|
+						(NoClassImplementList) Type
+						;	
+	
+InterfaceDecl	::= (InterfaceDecl) INTERFACE IDENT:iname LBRACE InterfaceMethodDeclList RBRACE
+					;
+
+InterfaceMethodDeclList ::= (InterfaceMethodList) InterfaceMethodDeclList InterfaceMethodDecl
+							|
+							(NoInterfaceMethods)
+							;
+									
+					
+InterfaceMethodDecl ::= (InterfaceMethodType) Type IDENT:methName FormParsArg SEMI
+						|
+						(InterfaceMethodVoid) VOID IDENT:methName FormParsArg SEMI
+						;
+
+MethodTypeName ::= (MethodType) Type IDENT:methName
+				   |
+				   (MethodVoid) VOID IDENT:methName
+				   ;
+		
+		
+MethodDecl ::= (MethodDecl) MethodTypeName FormParsArg VarDeclList LBRACE StatementList RBRACE
+			   ;
+			   
+FormParsArg ::= (NoParameters) LPAREN RPAREN
+				|
+				(Parameters) LPAREN FormPars RPAREN
+				|
+				(ParametersError) LPAREN error RPAREN
+				;
+			   		   
+			   
+FormPars ::= (FormParsList) FormPars COMMA TypeBrackets
+			 |
+			 (FormParsListError) error COMMA TypeBrackets
+			 |
+			 (FormParsSingle) TypeBrackets //smena za type ident optionalBrackets i visit za ubacivanje u Tab OptionalBrackets instanceof ExistingBrackets => new Struct(Struct.Array, lastVisited)
+			 ;
+			 
+TypeBrackets ::= (TypeBrackets) Type IDENT:name OptionalBrackets
+				 ;
+			 
+OptionalBrackets ::= (ExistingBrackets) LBRACKET RBRACKET
+					 |
+					 (NoExistingBrackets)
+					 ;		   
+			   
+			   
+Statement ::= (StatementDesignator) DesignatorStatement SEMI
+			  | 
+			  (StatemtntIf) BasicIf
+			  |
+			  (StatementIfElse) BasicIf Else Statement
+			  |
+			  (StatementFor) FOR LPAREN OptionalDesignatorStatement Sammy OptionalCondition SEMI OptionalDesignatorStatement RePare Statement
+			  |
+			  (StatementBreak) BREAK SEMI
+			  | 
+			  (StatementContinue) CONTINUE SEMI
+			  | 
+			  (StatementReturn) RETURN SEMI
+			  |
+			  (StatementReturnExpr) RETURN Expr SEMI
+			  | 
+			  (StatementRead) READ LPAREN Designator RPAREN SEMI
+			  | 
+			  (StatementPrintExprNum) PRINT LPAREN Expr COMMA NUMCONST:number RPAREN SEMI
+			  |
+			  (StatementPrintExpr) PRINT LPAREN Expr RPAREN SEMI
+			  | 
+			  (StatementListStatement) LBRACE StatementList RBRACE
+			  ;
+			  
+Sammy ::= (Sammy) SEMI
+		  ;
+		  
+RePare ::= (RePare) RPAREN
+		   ;
+			  
+Else ::= (Else) ELSE
+		;
+			  
+BasicIf ::= (BasicIffy) IF LPAREN IfCond RPAREN Statement //	*********************	visiiiiiiiiiiiiiiiiiit ***********************
+			|
+			(BasicIfError) IF LPAREN error RPAREN Statement
+			;
+			
+IfCond ::= (IfCond) Condition
+			;
+			  
+StatementList ::= (Statements) StatementList Statement
+				  |
+				  (StatementEmpty)
+				  ;
+
+OptionalDesignatorStatement ::= (ExistingDesignatorStatement) DesignatorStatement
+								|
+								(NotExistingDesignatorStatement)
+								;
+								
+OptionalCondition ::= 	(ExistingCondition) Condition
+					  	|
+					  	(NotExistingCondition)
+					  	;
+											   
+			   
+DesignatorStatement ::= (DesignatorStatementAssign) Designator Assignop Expr 
+						|
+						(DesignatorStatementAssignError) Designator Assignop error 
+						| 
+						(DesignatorStatementActParameters) Designator LPAREN ActPars RPAREN 
+						|
+						(DesignatorStatementEmpty) Designator LPAREN RPAREN
+						|
+						(DesignatorStatementIncrement) Designator INCREMENT 
+						| 
+						(DesignatorStatementDecrement) Designator DECREMENT
+						;
+							   
+ActPars ::= (ActParameters) ActPars COMMA ActPar
+			|
+			(ActParameterSingle) ActPar
+			;
+
+ActPar ::= (ActPar) Expr
+		   ;
+
+Condition ::= (Conditions) Condition Oreo CondTerm
+			  |
+			  (ConditionSingle) CondTerm
+			  ;	   
+			  
+Oreo	::= (Oreo) OR
+			;
+			
+CondTerm ::= (ConditionTerms) CondTerm Andy CondFact
+		     |
+		     (ConditionTermSingle) CondFact
+		     ;	
+		     
+Andy	::= (Andy) AND
+			;	   
+			   
+CondFact ::= (ConditionFactExpression) Expr
+			 |
+			 (ConditionFactExpressions) Expr Relop Expr
+			 ;			   
+
+Expr ::= (ExpressionNegative) MINUS TermList // analogno kao TermListAddop samo sto ima 1 operand
+		 |
+		 (ExpressionPositive) TermList // .struct = TermList.struct
+		 ;
+		 
+TermList ::= (TermListAddop) TermList Addop Term // odradjeno
+			 |
+			 (TermListSingle) Term // .struct = Term.struct
+			 ;		   
+			   
+Term ::= (TermMultiplied) Term Mulop Powfact // analogno kao TermListAddop
+		 |
+		 (TermSingle) Powfact // .struct = Factor.struct
+		 ;
+		 
+Powfact ::= (Power) Powfact POW Factor
+			|
+			(PowerFact) Factor
+			;		   
+			   
+Factor ::= (FactDesignator) Designator  // .struct = Designator.obj.getType()
+		   |
+		   (FactDesignatorPars) Designator LPAREN ActPars RPAREN // .struct = Designator.obj.getType()
+		   |
+		   (FactDesignatorParsEmpty) Designator LPAREN RPAREN // .struct = Designator.obj.getType()
+		   |
+		   (FactNumber) NUMCONST:number // .struct = Tab.intType
+		   |
+		   (FactChar) CHARCONST:character // .struct = Tab.charType
+		   |
+		   (FactBool) BOOLCONST:flag // .struct = boolType 
+		   |
+		   (FactNew) NEW Type // .struct = lastVisited
+		   |
+		   (FactNewExpr) NewTypeArr // .struct = new Struct(Struct.Array, lastVisited)
+		   |
+		   (FactNewArrayInit) NewTypeArr LBRACE ArrayParts RBRACE// .struct = new Struct(Struct.Array, lastVisited) --->visitovati u sa
+		   |
+		   (FactExpr) LPAREN Expr RPAREN // .struct = Expr.struct
+		   ;
+		   
+ArrayParts ::= (ArrayMultipleParts) ArrayParts Emptiness COMMA ArrPart
+			   |
+			   (ArraySinglePart) Emptiness ArrPart
+			   ;
+			   
+Emptiness ::= (Emptiness)
+			  ;
+
+ArrPart   ::= (ArrPart) Expr
+			  ;
+		   
+NewTypeArr	::= (NewTypeArr) NEW Type LBRACKET NUMCONST:number RBRACKET
+			;
+
+Designator ::= (DesignatorListIdent) Designator DOT IDENT:name
+			   |
+			   (DesignatorListExpr) ArrayDes LBRACKET Expr RBRACKET
+			   |
+			   (DesignatorIdent) IDENT:name
+			   ;
+			   
+ArrayDes ::= (ArrayDes) Designator
+			;			 	
+			      
+Assignop ::= (Assignop) EQUAL
+			 ;
+			 
+	   
+Relop ::= (RelationalEqual) RELEQUAL
+		  | 
+		  (RelationalNotEqual) NEQUAL
+		  |
+		  (RelationalGreater) GREATER 
+		  |
+		  (RelationalGreaterEqual) GEQUAL
+		  |
+		  (RelationalLess) LESS
+		  |
+		  (RelationalLessEqual) LEQUAL
+		  ;			   
+			   
+
+
+Addop ::= (AddopPlus) PLUS 
+		  |
+		  (AddopMinus) MINUS
+		  ;
+
+Mulop ::= (MultipleOp) MUL
+		  |
+		  (DivideOp) DIV
+		  |
+		  (PercentOp) PERCENT
+		  ;
+
+
+
+VarDeclList ::= (VarDeclarations) VarDeclList VarDecl  
+				|
+				(NoVarDecl) 
+				;
+
+
+Type ::= (Type) IDENT:typeName 
+		 ;
+		   
+FormalParamList ::= (FormalParamDecls) FormalParamList COMMA FormalParamDecl
+					|
+					(SingleFormalParamDecl) FormalParamDecl
+					;
+					
+FormalParamDecl ::= (FormalParamDecl) Type IDENT:var 
+					;
+
+ActualPars ::= (Actuals) ActualParamList 
+			   | 
+			   (NoActuals) /* epsilon */ 
+			   ;
+			   
+ActualParamList ::= (ActualParams) ActualParamList COMMA Expr
+					|
+					(ActualParam) Expr
+					;
+

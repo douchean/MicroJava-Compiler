@@ -1,0 +1,171 @@
+INFO  22:48:02,398 - Compiling source file: C:\Users\Dusan\Desktop\micko\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  22:48:02,691 - #2 program
+INFO  22:48:02,691 - #15 test1
+INFO  22:48:02,692 - #15 int
+INFO  22:48:02,694 - #15 i
+INFO  22:48:02,696 - #5 ;
+INFO  22:48:02,750 - #15 int
+INFO  22:48:02,753 - #15 x
+INFO  22:48:02,753 - #5 ;
+INFO  22:48:02,753 - #15 bool
+INFO  22:48:02,753 - #15 ibool
+INFO  22:48:02,754 - #5 ;
+INFO  22:48:02,755 - #15 bool
+INFO  22:48:02,755 - #15 jbool
+INFO  22:48:02,755 - #5 ;
+INFO  22:48:02,756 - #15 char
+INFO  22:48:02,757 - #15 c
+INFO  22:48:02,757 - #5 ;
+INFO  22:48:02,759 - #3 {
+INFO  22:48:02,759 - #15 int
+INFO  22:48:02,781 - #15 inc
+INFO  22:48:02,785 - #6 (
+INFO  22:48:02,788 - #15 int
+INFO  22:48:02,788 - #15 a
+INFO  22:48:02,788 - #7 )
+INFO  22:48:02,840 - #15 int
+INFO  22:48:02,890 - #15 adder
+INFO  22:48:02,890 - #5 ;
+INFO  22:48:02,891 - #3 {
+INFO  22:48:02,891 - #15 adder
+INFO  22:48:02,892 - #12 =
+INFO  22:48:02,892 - #47 1
+INFO  22:48:02,895 - #5 ;
+INFO  22:48:02,896 - #10 return
+INFO  22:48:02,896 - #15 a
+INFO  22:48:02,897 - #11 +
+INFO  22:48:02,897 - #15 adder
+INFO  22:48:03,062 - #5 ;
+INFO  22:48:03,062 - #4 }
+INFO  22:48:03,063 - #13 void
+INFO  22:48:03,080 - #15 setCharC
+INFO  22:48:03,081 - #6 (
+INFO  22:48:03,081 - #15 char
+INFO  22:48:03,081 - #15 a
+INFO  22:48:03,081 - #7 )
+INFO  22:48:03,085 - #3 {
+INFO  22:48:03,085 - #15 c
+INFO  22:48:03,085 - #12 =
+INFO  22:48:03,086 - #15 a
+INFO  22:48:03,086 - #5 ;
+INFO  22:48:03,087 - #4 }
+INFO  22:48:03,087 - #13 void
+INFO  22:48:03,088 - #15 main
+INFO  22:48:03,088 - #6 (
+INFO  22:48:03,088 - #7 )
+INFO  22:48:03,088 - #3 {
+INFO  22:48:03,095 - #15 jbool
+INFO  22:48:03,096 - #12 =
+INFO  22:48:03,096 - #49 false
+INFO  22:48:03,096 - #5 ;
+INFO  22:48:03,108 - #15 ibool
+INFO  22:48:03,108 - #12 =
+INFO  22:48:03,109 - #15 jbool
+INFO  22:48:03,109 - #5 ;
+INFO  22:48:03,109 - #15 i
+INFO  22:48:03,110 - #12 =
+INFO  22:48:03,110 - #47 0
+INFO  22:48:03,110 - #5 ;
+INFO  22:48:03,111 - #15 x
+INFO  22:48:03,111 - #12 =
+INFO  22:48:03,111 - #47 0
+INFO  22:48:03,111 - #5 ;
+INFO  22:48:03,112 - #18 for
+INFO  22:48:03,112 - #6 (
+INFO  22:48:03,112 - #15 i
+INFO  22:48:03,112 - #12 =
+INFO  22:48:03,112 - #47 0
+INFO  22:48:03,113 - #5 ;
+INFO  22:48:03,114 - #15 i
+INFO  22:48:03,125 - #33 <
+INFO  22:48:03,125 - #47 5
+INFO  22:48:03,147 - #5 ;
+INFO  22:48:03,147 - #15 i
+INFO  22:48:03,148 - #22 ++
+INFO  22:48:03,148 - #7 )
+INFO  22:48:03,148 - #3 {
+INFO  22:48:03,162 - #15 x
+INFO  22:48:03,162 - #12 =
+INFO  22:48:03,162 - #15 inc
+INFO  22:48:03,162 - #6 (
+INFO  22:48:03,162 - #15 x
+INFO  22:48:03,162 - #7 )
+INFO  22:48:03,185 - #5 ;
+INFO  22:48:03,186 - #4 }
+INFO  22:48:03,186 - #15 x
+INFO  22:48:03,187 - #12 =
+INFO  22:48:03,187 - #15 inc
+INFO  22:48:03,187 - #6 (
+INFO  22:48:03,187 - #15 x
+INFO  22:48:03,188 - #7 )
+INFO  22:48:03,188 - #5 ;
+INFO  22:48:03,188 - #9 print
+INFO  22:48:03,188 - #6 (
+INFO  22:48:03,188 - #15 x
+INFO  22:48:03,189 - #7 )
+INFO  22:48:03,189 - #5 ;
+INFO  22:48:03,189 - #15 setCharC
+INFO  22:48:03,189 - #6 (
+INFO  22:48:03,190 - #48 p
+INFO  22:48:03,190 - #7 )
+INFO  22:48:03,190 - #5 ;
+INFO  22:48:03,191 - #9 print
+INFO  22:48:03,191 - #6 (
+INFO  22:48:03,191 - #15 c
+INFO  22:48:03,191 - #7 )
+INFO  22:48:03,191 - #5 ;
+INFO  22:48:03,192 - #21 read
+INFO  22:48:03,192 - #6 (
+INFO  22:48:03,192 - #15 i
+INFO  22:48:03,192 - #7 )
+INFO  22:48:03,192 - #5 ;
+INFO  22:48:03,193 - #9 print
+INFO  22:48:03,193 - #6 (
+INFO  22:48:03,193 - #15 x
+INFO  22:48:03,193 - #11 +
+INFO  22:48:03,194 - #15 i
+INFO  22:48:03,194 - #7 )
+INFO  22:48:03,194 - #5 ;
+INFO  22:48:03,194 - #9 print
+INFO  22:48:03,195 - #6 (
+INFO  22:48:03,195 - #15 ibool
+INFO  22:48:03,195 - #7 )
+INFO  22:48:03,195 - #5 ;
+INFO  22:48:03,195 - #4 }
+INFO  22:48:03,195 - #4 }
+INFO  22:48:03,254 - Koristi se lokalna promenljiva Var adder: int, 1, 1  na liniji 15
+INFO  22:48:03,255 - Koristi se formalni parametar funkcije Var a: int, 0, 1  na liniji 16
+INFO  22:48:03,255 - Koristi se lokalna promenljiva Var adder: int, 1, 1  na liniji 16
+INFO  22:48:03,255 - Koristi se globalna promenljiva Var c: char, 4, 0  na liniji 21
+INFO  22:48:03,255 - Koristi se formalni parametar funkcije Var a: char, 0, 1  na liniji 21
+INFO  22:48:03,256 - Koristi se globalna promenljiva Var jbool: , 3, 0  na liniji 27
+INFO  22:48:03,256 - Koristi se globalna promenljiva Var ibool: , 2, 0  na liniji 28
+INFO  22:48:03,256 - Koristi se globalna promenljiva Var jbool: , 3, 0  na liniji 28
+INFO  22:48:03,256 - Koristi se globalna promenljiva Var i: int, 0, 0  na liniji 30
+INFO  22:48:03,256 - Koristi se globalna promenljiva Var x: int, 1, 0  na liniji 31
+INFO  22:48:03,257 - Koristi se globalna promenljiva Var i: int, 0, 0  na liniji 32
+INFO  22:48:03,258 - Koristi se globalna promenljiva Var i: int, 0, 0  na liniji 32
+INFO  22:48:03,258 - Koristi se globalna promenljiva Var i: int, 0, 0  na liniji 32
+INFO  22:48:03,259 - Koristi se globalna promenljiva Var x: int, 1, 0  na liniji 34
+INFO  22:48:03,259 - Koristi se globalna promenljiva Var x: int, 1, 0  na liniji 34
+INFO  22:48:03,259 - Poziva se funkcija Meth inc: int, 0, 1 
+   Var a: int, 0, 1 
+   Var adder: int, 1, 1 
+ na liniji 34
+INFO  22:48:03,260 - Koristi se globalna promenljiva Var x: int, 1, 0  na liniji 37
+INFO  22:48:03,261 - Koristi se globalna promenljiva Var x: int, 1, 0  na liniji 37
+INFO  22:48:03,261 - Poziva se funkcija Meth inc: int, 0, 1 
+   Var a: int, 0, 1 
+   Var adder: int, 1, 1 
+ na liniji 37
+INFO  22:48:03,261 - Koristi se globalna promenljiva Var x: int, 1, 0  na liniji 39
+INFO  22:48:03,261 - Poziva se funkcija Meth setCharC: notype, 0, 1 
+   Var a: char, 0, 1 
+ na liniji 41
+INFO  22:48:03,262 - Koristi se globalna promenljiva Var c: char, 4, 0  na liniji 42
+INFO  22:48:03,262 - Koristi se globalna promenljiva Var i: int, 0, 0  na liniji 44
+INFO  22:48:03,263 - Koristi se globalna promenljiva Var x: int, 1, 0  na liniji 45
+INFO  22:48:03,263 - Koristi se globalna promenljiva Var i: int, 0, 0  na liniji 45
+INFO  22:48:03,264 - Koristi se globalna promenljiva Var ibool: , 2, 0  na liniji 46
+INFO  22:48:03,268 - Generating bytecode file: C:\Users\Dusan\Desktop\micko\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  22:48:03,318 - Parsiranje uspesno zavrseno!

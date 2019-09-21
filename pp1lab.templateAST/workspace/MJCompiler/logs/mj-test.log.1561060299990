@@ -1,0 +1,37 @@
+INFO  21:51:27,265 - Compiling source file: C:\Users\Dusan\Desktop\micko\pp1lab.templateAST\workspace\MJCompiler\test\test301.mj
+INFO  21:51:27,439 - #2 program
+INFO  21:51:27,439 - #15 nivoA
+INFO  21:51:27,440 - #15 char
+INFO  21:51:27,442 - #15 text
+INFO  21:51:27,443 - #41 [
+INFO  21:51:27,443 - #42 ]
+INFO  21:51:27,443 - #5 ;
+INFO  21:51:27,447 - #15 int
+INFO  21:51:27,448 - #15 numbers
+INFO  21:51:27,448 - #41 [
+INFO  21:51:27,448 - #42 ]
+INFO  21:51:27,448 - #5 ;
+INFO  21:51:27,448 - #40 enum
+INFO  21:51:27,448 - #15 Color
+INFO  21:51:27,448 - #3 {
+INFO  21:51:27,450 - #15 BELA
+INFO  21:51:27,450 - #8 ,
+INFO  21:51:27,450 - #15 PLAVA
+INFO  21:51:27,451 - #12 =
+INFO  21:51:27,451 - #47 3
+INFO  21:51:27,451 - #8 ,
+INFO  21:51:27,452 - #15 CRVENA
+INFO  21:51:27,452 - #4 }
+INFO  21:51:27,452 - #39 const
+INFO  21:51:27,454 - #15 int
+INFO  21:51:27,454 - #15 first
+INFO  21:51:27,454 - #12 =
+INFO  21:51:27,454 - #47 1
+INFO  21:51:27,455 - #5 ;
+INFO  21:51:27,455 - #39 const
+INFO  21:51:27,457 - #15 bool
+INFO  21:51:27,457 - #15 flag
+INFO  21:51:27,457 - #5 ;
+ERROR 21:51:27,457 - 
+Sintaksna greska na liniji 10
+ERROR 21:51:27,457 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10

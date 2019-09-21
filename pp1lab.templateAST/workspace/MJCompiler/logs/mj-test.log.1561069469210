@@ -1,0 +1,88 @@
+INFO  00:22:55,728 - Compiling source file: C:\Users\Dusan\Desktop\micko\pp1lab.templateAST\workspace\MJCompiler\test\oporavak.mj
+INFO  00:22:56,111 - #2 program
+INFO  00:22:56,111 - #15 oporavak
+INFO  00:22:56,112 - #15 int
+INFO  00:22:56,116 - #11 +
+ERROR 00:22:56,118 - 
+Sintaksna greska na liniji 3
+INFO  00:22:56,118 - #8 ,
+INFO  00:22:56,119 - #15 i
+INFO  00:22:56,119 - #5 ;
+INFO  00:22:56,120 - #15 int
+INFO  00:22:56,125 - #11 +
+ERROR 00:22:56,126 - 
+Sintaksna greska na liniji 4
+INFO  00:22:56,126 - #5 ;
+INFO  00:22:56,126 - #3 {
+INFO  00:22:56,126 - #13 void
+INFO  00:22:56,126 - #15 pogreska
+INFO  00:22:56,128 - #6 (
+INFO  00:22:56,128 - #22 ++
+ERROR 00:22:56,129 - 
+Sintaksna greska na liniji 8
+INFO  00:22:56,129 - #7 )
+INFO  00:22:56,129 - #3 {
+INFO  00:22:56,130 - #4 }
+INFO  00:22:56,130 - #13 void
+INFO  00:22:56,244 - #15 pogreskadva
+INFO  00:22:56,244 - #6 (
+INFO  00:22:56,245 - #47 899
+ERROR 00:22:56,245 - 
+Sintaksna greska na liniji 11
+INFO  00:22:56,245 - #8 ,
+INFO  00:22:56,245 - #15 int
+INFO  00:22:56,246 - #15 x
+INFO  00:22:56,247 - #7 )
+INFO  00:22:56,250 - #3 {
+INFO  00:22:56,251 - #16 if
+INFO  00:22:56,251 - #6 (
+INFO  00:22:56,252 - #15 x
+INFO  00:22:56,252 - #12 =
+ERROR 00:22:56,252 - 
+Sintaksna greska na liniji 12
+INFO  00:22:56,253 - #26 -
+INFO  00:22:56,253 - #15 po
+INFO  00:22:56,254 - #7 )
+INFO  00:22:56,254 - #10 return
+INFO  00:22:56,254 - #5 ;
+INFO  00:22:56,254 - #4 }
+INFO  00:22:56,262 - #13 void
+INFO  00:22:56,262 - #15 pogreskatri
+INFO  00:22:56,263 - #6 (
+INFO  00:22:56,264 - #15 int
+INFO  00:22:56,264 - #15 x
+INFO  00:22:56,264 - #7 )
+INFO  00:22:56,266 - #3 {
+INFO  00:22:56,267 - #15 x
+INFO  00:22:56,267 - #12 =
+INFO  00:22:56,267 - #47 6
+INFO  00:22:56,269 - #11 +
+INFO  00:22:56,270 - #47 6
+INFO  00:22:56,337 - #11 +
+INFO  00:22:56,337 - #47 6
+INFO  00:22:56,337 - #11 +
+INFO  00:22:56,338 - #47 6
+INFO  00:22:56,338 - #11 +
+INFO  00:22:56,344 - #47 6
+INFO  00:22:56,345 - #11 +
+INFO  00:22:56,345 - #47 6
+INFO  00:22:56,345 - #11 +
+INFO  00:22:56,346 - #5 ;
+ERROR 00:22:56,346 - 
+Sintaksna greska na liniji 16
+INFO  00:22:56,346 - #4 }
+INFO  00:22:56,346 - #13 void
+INFO  00:22:56,347 - #15 main
+INFO  00:22:56,348 - #6 (
+INFO  00:22:56,348 - #7 )
+INFO  00:22:56,348 - #3 {
+INFO  00:22:56,352 - #4 }
+INFO  00:22:56,352 - #4 }
+INFO  00:22:56,452 - Na liniji: 3 desio se oporavak od greske pri deklaraciji promenljive do ',' 
+INFO  00:22:56,452 - Na liniji: 4 desio se oporavak od greske pri deklaraciji promenljive do ';' 
+INFO  00:22:56,452 - Na liniji: 8 desio se oporavak od greske pri deklaraciji formalnog parametra do ')' 
+INFO  00:22:56,453 - Na liniji: 11 desio se oporavak od greske pri deklaraciji formalnog parametra do ',' 
+INFO  00:22:56,453 - Na liniji: 12 desio se oporavak od greske kod logickog izraza unutar if konstrukcije do ')' 
+INFO  00:22:56,454 - Koristi se formalni parametar funkcije Var x: int, 0, 1  na liniji 16
+INFO  00:22:56,454 - Na liniji: 16 desio se oporavak od greske pri dodeli vrednosti do ';' 
+ERROR 00:22:56,455 - Parsiranje NIJE uspesno zavrseno!

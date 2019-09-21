@@ -1,0 +1,314 @@
+INFO  17:19:59,084 - Compiling source file: C:\Users\Dusan\Desktop\pp1lab.templateAST\pp1Projekat\workspace\MJCompiler\test\test301.mj
+INFO  17:19:59,300 - #2 program
+INFO  17:19:59,300 - #15 test301
+INFO  17:19:59,300 - #39 enum
+INFO  17:19:59,303 - #15 Broj
+INFO  17:19:59,303 - #3 {
+INFO  17:19:59,305 - #15 NULA
+INFO  17:19:59,305 - #8 ,
+INFO  17:19:59,306 - #15 JEDAN
+INFO  17:19:59,306 - #8 ,
+INFO  17:19:59,306 - #15 PET
+INFO  17:19:59,306 - #12 =
+INFO  17:19:59,307 - #46 5
+INFO  17:19:59,307 - #8 ,
+INFO  17:19:59,307 - #15 DESET
+INFO  17:19:59,308 - #12 =
+INFO  17:19:59,308 - #46 10
+INFO  17:19:59,308 - #4 }
+INFO  17:19:59,309 - #38 const
+INFO  17:19:59,311 - #15 int
+INFO  17:19:59,311 - #15 jedan
+INFO  17:19:59,313 - #12 =
+INFO  17:19:59,313 - #46 1
+INFO  17:19:59,314 - #5 ;
+INFO  17:19:59,314 - #38 const
+INFO  17:19:59,316 - #15 int
+INFO  17:19:59,316 - #15 pet
+INFO  17:19:59,317 - #12 =
+INFO  17:19:59,317 - #46 5
+INFO  17:19:59,317 - #5 ;
+INFO  17:19:59,317 - #15 int
+INFO  17:19:59,317 - #15 niz
+INFO  17:19:59,317 - #40 [
+INFO  17:19:59,317 - #41 ]
+INFO  17:19:59,317 - #5 ;
+INFO  17:19:59,321 - #15 char
+INFO  17:19:59,323 - #15 nizch
+INFO  17:19:59,323 - #40 [
+INFO  17:19:59,323 - #41 ]
+INFO  17:19:59,323 - #5 ;
+INFO  17:19:59,324 - #3 {
+INFO  17:19:59,324 - #13 void
+INFO  17:19:59,325 - #15 main
+INFO  17:19:59,325 - #6 (
+INFO  17:19:59,326 - #7 )
+INFO  17:19:59,326 - #15 int
+INFO  17:19:59,328 - #15 bodovi
+INFO  17:19:59,328 - #5 ;
+INFO  17:19:59,330 - #15 Broj
+INFO  17:19:59,330 - #15 nula
+INFO  17:19:59,331 - #8 ,
+INFO  17:19:59,331 - #15 jedan
+INFO  17:19:59,331 - #5 ;
+INFO  17:19:59,331 - #3 {
+INFO  17:19:59,332 - #15 nula
+INFO  17:19:59,333 - #12 =
+INFO  17:19:59,333 - #15 Broj
+INFO  17:19:59,335 - #28 .
+INFO  17:19:59,335 - #15 NULA
+INFO  17:19:59,336 - #5 ;
+INFO  17:19:59,347 - #15 jedan
+INFO  17:19:59,348 - #12 =
+INFO  17:19:59,348 - #15 Broj
+INFO  17:19:59,348 - #28 .
+INFO  17:19:59,348 - #15 JEDAN
+INFO  17:19:59,348 - #5 ;
+INFO  17:19:59,349 - #15 bodovi
+INFO  17:19:59,349 - #12 =
+INFO  17:19:59,349 - #46 0
+INFO  17:19:59,349 - #5 ;
+INFO  17:19:59,349 - #15 bodovi
+INFO  17:19:59,349 - #22 ++
+INFO  17:19:59,350 - #5 ;
+INFO  17:19:59,350 - #15 bodovi
+INFO  17:19:59,350 - #12 =
+INFO  17:19:59,350 - #15 bodovi
+INFO  17:19:59,350 - #11 +
+INFO  17:19:59,351 - #15 jedan
+INFO  17:19:59,353 - #5 ;
+INFO  17:19:59,354 - #15 bodovi
+INFO  17:19:59,354 - #12 =
+INFO  17:19:59,354 - #15 bodovi
+INFO  17:19:59,354 - #35 *
+INFO  17:19:59,355 - #15 pet
+INFO  17:19:59,357 - #5 ;
+INFO  17:19:59,357 - #15 bodovi
+INFO  17:19:59,358 - #23 --
+INFO  17:19:59,358 - #5 ;
+INFO  17:19:59,358 - #9 print
+INFO  17:19:59,359 - #6 (
+INFO  17:19:59,359 - #15 bodovi
+INFO  17:19:59,359 - #7 )
+INFO  17:19:59,360 - #5 ;
+INFO  17:19:59,361 - #15 niz
+INFO  17:19:59,361 - #12 =
+INFO  17:19:59,362 - #27 new
+INFO  17:19:59,362 - #15 int
+INFO  17:19:59,362 - #40 [
+INFO  17:19:59,362 - #46 2
+INFO  17:19:59,362 - #41 ]
+INFO  17:19:59,362 - #5 ;
+INFO  17:19:59,363 - #15 niz
+INFO  17:19:59,364 - #40 [
+INFO  17:19:59,366 - #15 nula
+INFO  17:19:59,366 - #41 ]
+INFO  17:19:59,366 - #12 =
+INFO  17:19:59,366 - #15 pet
+INFO  17:19:59,367 - #5 ;
+INFO  17:19:59,367 - #15 niz
+INFO  17:19:59,367 - #40 [
+INFO  17:19:59,367 - #46 1
+INFO  17:19:59,367 - #41 ]
+INFO  17:19:59,368 - #12 =
+INFO  17:19:59,368 - #15 Broj
+INFO  17:19:59,368 - #28 .
+INFO  17:19:59,368 - #15 DESET
+INFO  17:19:59,368 - #5 ;
+INFO  17:19:59,368 - #15 bodovi
+INFO  17:19:59,370 - #12 =
+INFO  17:19:59,370 - #15 niz
+INFO  17:19:59,370 - #40 [
+INFO  17:19:59,370 - #46 1
+INFO  17:19:59,370 - #41 ]
+INFO  17:19:59,371 - #36 /
+INFO  17:19:59,371 - #15 niz
+INFO  17:19:59,373 - #40 [
+INFO  17:19:59,373 - #46 0
+INFO  17:19:59,373 - #41 ]
+INFO  17:19:59,374 - #5 ;
+INFO  17:19:59,374 - #9 print
+INFO  17:19:59,374 - #6 (
+INFO  17:19:59,375 - #15 bodovi
+INFO  17:19:59,375 - #7 )
+INFO  17:19:59,375 - #5 ;
+INFO  17:19:59,375 - #15 niz
+INFO  17:19:59,375 - #40 [
+INFO  17:19:59,375 - #15 Broj
+INFO  17:19:59,375 - #28 .
+INFO  17:19:59,375 - #15 JEDAN
+INFO  17:19:59,376 - #41 ]
+INFO  17:19:59,376 - #22 ++
+INFO  17:19:59,376 - #5 ;
+INFO  17:19:59,376 - #9 print
+INFO  17:19:59,376 - #6 (
+INFO  17:19:59,376 - #15 niz
+INFO  17:19:59,376 - #40 [
+INFO  17:19:59,376 - #15 Broj
+INFO  17:19:59,376 - #28 .
+INFO  17:19:59,377 - #15 JEDAN
+INFO  17:19:59,377 - #41 ]
+INFO  17:19:59,378 - #7 )
+INFO  17:19:59,378 - #5 ;
+INFO  17:19:59,378 - #15 nizch
+INFO  17:19:59,378 - #12 =
+INFO  17:19:59,378 - #27 new
+INFO  17:19:59,378 - #15 char
+INFO  17:19:59,379 - #40 [
+INFO  17:19:59,379 - #46 3
+INFO  17:19:59,379 - #41 ]
+INFO  17:19:59,379 - #5 ;
+INFO  17:19:59,379 - #15 nizch
+INFO  17:19:59,380 - #40 [
+INFO  17:19:59,380 - #46 0
+INFO  17:19:59,380 - #41 ]
+INFO  17:19:59,380 - #12 =
+INFO  17:19:59,380 - #47 a
+INFO  17:19:59,380 - #5 ;
+INFO  17:19:59,381 - #15 nizch
+INFO  17:19:59,381 - #40 [
+INFO  17:19:59,381 - #15 jedan
+INFO  17:19:59,381 - #41 ]
+INFO  17:19:59,382 - #12 =
+INFO  17:19:59,382 - #47 b
+INFO  17:19:59,382 - #5 ;
+INFO  17:19:59,382 - #15 nizch
+INFO  17:19:59,382 - #40 [
+INFO  17:19:59,382 - #15 pet
+INFO  17:19:59,383 - #26 -
+INFO  17:19:59,383 - #46 3
+INFO  17:19:59,385 - #41 ]
+INFO  17:19:59,385 - #12 =
+INFO  17:19:59,385 - #47 c
+INFO  17:19:59,385 - #5 ;
+INFO  17:19:59,385 - #9 print
+INFO  17:19:59,385 - #6 (
+INFO  17:19:59,385 - #15 nizch
+INFO  17:19:59,386 - #40 [
+INFO  17:19:59,386 - #46 2
+INFO  17:19:59,386 - #26 -
+INFO  17:19:59,386 - #46 1
+INFO  17:19:59,386 - #41 ]
+INFO  17:19:59,386 - #7 )
+INFO  17:19:59,386 - #5 ;
+INFO  17:19:59,386 - #9 print
+INFO  17:19:59,387 - #6 (
+INFO  17:19:59,387 - #15 nizch
+INFO  17:19:59,387 - #40 [
+INFO  17:19:59,387 - #15 jedan
+INFO  17:19:59,387 - #35 *
+INFO  17:19:59,387 - #46 2
+INFO  17:19:59,387 - #41 ]
+INFO  17:19:59,387 - #7 )
+INFO  17:19:59,387 - #5 ;
+INFO  17:19:59,388 - #15 bodovi
+INFO  17:19:59,388 - #12 =
+INFO  17:19:59,388 - #15 bodovi
+INFO  17:19:59,388 - #11 +
+INFO  17:19:59,388 - #6 (
+INFO  17:19:59,388 - #6 (
+INFO  17:19:59,388 - #15 pet
+INFO  17:19:59,388 - #35 *
+INFO  17:19:59,388 - #15 jedan
+INFO  17:19:59,389 - #26 -
+INFO  17:19:59,389 - #46 1
+INFO  17:19:59,389 - #7 )
+INFO  17:19:59,389 - #35 *
+INFO  17:19:59,389 - #46 2
+INFO  17:19:59,389 - #26 -
+INFO  17:19:59,389 - #6 (
+INFO  17:19:59,390 - #46 3
+INFO  17:19:59,390 - #37 %
+INFO  17:19:59,390 - #46 2
+INFO  17:19:59,391 - #11 +
+INFO  17:19:59,391 - #46 3
+INFO  17:19:59,391 - #35 *
+INFO  17:19:59,391 - #46 2
+INFO  17:19:59,391 - #26 -
+INFO  17:19:59,392 - #46 3
+INFO  17:19:59,392 - #7 )
+INFO  17:19:59,392 - #26 -
+INFO  17:19:59,392 - #15 Broj
+INFO  17:19:59,392 - #28 .
+INFO  17:19:59,392 - #15 JEDAN
+INFO  17:19:59,392 - #35 *
+INFO  17:19:59,392 - #46 0
+INFO  17:19:59,392 - #7 )
+INFO  17:19:59,393 - #5 ;
+INFO  17:19:59,393 - #9 print
+INFO  17:19:59,393 - #6 (
+INFO  17:19:59,393 - #15 bodovi
+INFO  17:19:59,393 - #7 )
+INFO  17:19:59,393 - #5 ;
+INFO  17:19:59,394 - #21 read
+INFO  17:19:59,394 - #6 (
+INFO  17:19:59,394 - #15 bodovi
+INFO  17:19:59,394 - #7 )
+INFO  17:19:59,394 - #5 ;
+INFO  17:19:59,394 - #15 bodovi
+INFO  17:19:59,394 - #12 =
+INFO  17:19:59,394 - #15 bodovi
+INFO  17:19:59,394 - #11 +
+INFO  17:19:59,395 - #46 1
+INFO  17:19:59,395 - #5 ;
+INFO  17:19:59,395 - #9 print
+INFO  17:19:59,395 - #6 (
+INFO  17:19:59,395 - #15 bodovi
+INFO  17:19:59,396 - #7 )
+INFO  17:19:59,396 - #5 ;
+INFO  17:19:59,396 - #4 }
+INFO  17:19:59,396 - #4 }
+INFO  17:19:59,464 - Deklarisana promenljiva niz na liniji 10
+INFO  17:19:59,464 - Deklarisana promenljiva nizch na liniji 11
+INFO  17:19:59,464 - Deklarisana promenljiva bodovi na liniji 15
+INFO  17:19:59,464 - Deklarisana promenljiva nula na liniji 16
+INFO  17:19:59,465 - Deklarisana promenljiva jedan na liniji 16
+INFO  17:19:59,465 - Koristi se nula na liniji 18
+INFO  17:19:59,465 - Koristi se Broj na liniji 18
+INFO  17:19:59,465 - Koristi se jedan na liniji 19
+INFO  17:19:59,465 - Koristi se Broj na liniji 19
+INFO  17:19:59,465 - Koristi se bodovi na liniji 21
+INFO  17:19:59,466 - Koristi se bodovi na liniji 22
+INFO  17:19:59,466 - Koristi se bodovi na liniji 23
+INFO  17:19:59,466 - Koristi se bodovi na liniji 23
+INFO  17:19:59,466 - Koristi se jedan na liniji 23
+INFO  17:19:59,466 - Koristi se bodovi na liniji 24
+INFO  17:19:59,466 - Koristi se bodovi na liniji 24
+INFO  17:19:59,467 - Koristi se pet na liniji 24
+INFO  17:19:59,467 - Koristi se bodovi na liniji 25
+INFO  17:19:59,467 - Koristi se bodovi na liniji 26
+INFO  17:19:59,467 - Koristi se niz na liniji 29
+INFO  17:19:59,467 - Koristi se niz na liniji 30
+INFO  17:19:59,467 - Koristi se nula na liniji 30
+INFO  17:19:59,467 - Koristi se pet na liniji 30
+INFO  17:19:59,467 - Koristi se niz na liniji 31
+INFO  17:19:59,468 - Koristi se Broj na liniji 31
+INFO  17:19:59,468 - Koristi se bodovi na liniji 32
+INFO  17:19:59,468 - Koristi se niz na liniji 32
+INFO  17:19:59,468 - Koristi se niz na liniji 32
+INFO  17:19:59,468 - Koristi se bodovi na liniji 33
+INFO  17:19:59,468 - Koristi se niz na liniji 34
+INFO  17:19:59,468 - Koristi se Broj na liniji 34
+INFO  17:19:59,468 - Koristi se niz na liniji 35
+INFO  17:19:59,468 - Koristi se Broj na liniji 35
+INFO  17:19:59,469 - Koristi se nizch na liniji 38
+INFO  17:19:59,469 - Koristi se nizch na liniji 39
+INFO  17:19:59,469 - Koristi se nizch na liniji 40
+INFO  17:19:59,469 - Koristi se jedan na liniji 40
+INFO  17:19:59,469 - Koristi se nizch na liniji 41
+INFO  17:19:59,469 - Koristi se pet na liniji 41
+INFO  17:19:59,469 - Koristi se nizch na liniji 42
+INFO  17:19:59,470 - Koristi se nizch na liniji 43
+INFO  17:19:59,470 - Koristi se jedan na liniji 43
+INFO  17:19:59,470 - Koristi se bodovi na liniji 46
+INFO  17:19:59,470 - Koristi se bodovi na liniji 46
+INFO  17:19:59,471 - Koristi se pet na liniji 46
+INFO  17:19:59,471 - Koristi se jedan na liniji 46
+INFO  17:19:59,471 - Koristi se Broj na liniji 46
+INFO  17:19:59,471 - Koristi se bodovi na liniji 47
+INFO  17:19:59,471 - Koristi se bodovi na liniji 50
+INFO  17:19:59,471 - Koristi se bodovi na liniji 51
+INFO  17:19:59,472 - Koristi se bodovi na liniji 51
+INFO  17:19:59,472 - Koristi se bodovi na liniji 52
+INFO  17:19:59,473 - Generating bytecode file: C:\Users\Dusan\Desktop\pp1lab.templateAST\pp1Projekat\workspace\MJCompiler\test\program.obj
+INFO  17:19:59,487 - Parsiranje uspesno zavrseno!

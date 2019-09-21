@@ -1,0 +1,96 @@
+INFO  19:30:17,819 - Compiling source file: C:\Users\Dusan\Desktop\micko\pp1lab.templateAST\workspace\MJCompiler\test\pogreske.mj
+INFO  19:30:17,957 - #2 program
+INFO  19:30:17,957 - #15 test302
+INFO  19:30:17,958 - #40 enum
+INFO  19:30:17,960 - #15 IncrementType
+INFO  19:30:17,960 - #3 {
+INFO  19:30:17,961 - #15 BY_ONE
+INFO  19:30:17,961 - #8 ,
+INFO  19:30:17,962 - #15 DOUBLE_VALUE
+INFO  19:30:17,962 - #4 }
+INFO  19:30:17,962 - #15 int
+INFO  19:30:17,964 - #11 +
+ERROR 19:30:17,965 - 
+Sintaksna greska na liniji 7
+INFO  19:30:17,965 - #8 ,
+INFO  19:30:17,965 - #15 i
+INFO  19:30:17,966 - #5 ;
+INFO  19:30:17,966 - #15 int
+INFO  19:30:17,970 - #11 +
+ERROR 19:30:17,970 - 
+Sintaksna greska na liniji 8
+INFO  19:30:17,970 - #5 ;
+INFO  19:30:17,971 - #15 bool
+INFO  19:30:17,971 - #15 ibool
+INFO  19:30:17,971 - #5 ;
+INFO  19:30:17,971 - #15 int
+INFO  19:30:17,971 - #15 niz
+INFO  19:30:17,971 - #41 [
+INFO  19:30:17,971 - #42 ]
+INFO  19:30:17,972 - #5 ;
+INFO  19:30:17,973 - #3 {
+INFO  19:30:17,973 - #15 int
+INFO  19:30:17,974 - #15 sum
+INFO  19:30:17,974 - #6 (
+INFO  19:30:17,974 - #15 int
+INFO  19:30:17,974 - #15 z
+INFO  19:30:17,974 - #8 ,
+INFO  19:30:17,975 - #15 int
+INFO  19:30:17,976 - #15 d
+INFO  19:30:17,976 - #7 )
+INFO  19:30:17,976 - #3 {
+INFO  19:30:17,977 - #10 return
+INFO  19:30:17,978 - #15 z
+INFO  19:30:17,978 - #11 +
+INFO  19:30:17,979 - #15 d
+INFO  19:30:17,980 - #5 ;
+INFO  19:30:17,981 - #4 }
+INFO  19:30:17,981 - #13 void
+INFO  19:30:17,983 - #15 pogreska
+INFO  19:30:17,983 - #6 (
+INFO  19:30:17,983 - #47 6
+ERROR 19:30:17,983 - 
+Sintaksna greska na liniji 19
+INFO  19:30:17,983 - #7 )
+INFO  19:30:17,984 - #3 {
+INFO  19:30:17,984 - #15 x
+INFO  19:30:17,984 - #12 =
+INFO  19:30:17,986 - #47 2
+INFO  19:30:17,987 - #5 ;
+INFO  19:30:17,988 - #4 }
+INFO  19:30:17,988 - #13 void
+INFO  19:30:17,988 - #15 pogreskadva
+INFO  19:30:17,988 - #6 (
+INFO  19:30:17,997 - #15 int
+INFO  19:30:17,997 - #15 x
+INFO  19:30:17,997 - #8 ,
+INFO  19:30:17,997 - #47 899
+ERROR 19:30:17,997 - 
+Sintaksna greska na liniji 23
+INFO  19:30:17,997 - #7 )
+INFO  19:30:17,998 - #3 {
+INFO  19:30:17,998 - #16 if
+INFO  19:30:17,998 - #6 (
+INFO  19:30:17,998 - #15 x
+INFO  19:30:17,998 - #12 =
+ERROR 19:30:17,998 - 
+Sintaksna greska na liniji 24
+INFO  19:30:17,999 - #26 -
+INFO  19:30:17,999 - #15 po
+INFO  19:30:17,999 - #7 )
+INFO  19:30:17,999 - #10 return
+INFO  19:30:17,999 - #5 ;
+INFO  19:30:17,999 - #4 }
+INFO  19:30:18,000 - #13 void
+INFO  19:30:18,001 - #15 pogreskatri
+INFO  19:30:18,001 - #6 (
+INFO  19:30:18,001 - #15 int
+INFO  19:30:18,001 - #15 x
+INFO  19:30:18,001 - #7 )
+INFO  19:30:18,001 - #3 {
+INFO  19:30:18,001 - #15 x
+INFO  19:30:18,001 - #12 =
+INFO  19:30:18,001 - #11 +
+ERROR 19:30:18,001 - 
+Sintaksna greska na liniji 28
+ERROR 19:30:18,001 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 28

@@ -1,0 +1,31 @@
+INFO  13:20:47,567 - Compiling source file: C:\Users\Dusan\Desktop\pp1lab.templateAST\pp1Projekat\workspace\MJCompiler\test\test302.mj
+INFO  13:20:47,751 - #2 program
+INFO  13:20:47,751 - #15 test302
+INFO  13:20:47,751 - #39 enum
+INFO  13:20:47,751 - #15 IncrementType
+INFO  13:20:47,751 - #3 {
+INFO  13:20:47,751 - #15 BY_ONE
+INFO  13:20:47,751 - #8 ,
+INFO  13:20:47,751 - #15 DOUBLE_VALUE
+INFO  13:20:47,751 - #4 }
+INFO  13:20:47,751 - #15 int
+INFO  13:20:47,751 - #15 i
+INFO  13:20:47,767 - #5 ;
+INFO  13:20:47,767 - #15 bool
+INFO  13:20:47,767 - #15 ibool
+INFO  13:20:47,767 - #5 ;
+INFO  13:20:47,767 - #15 int
+INFO  13:20:47,767 - #15 niz
+INFO  13:20:47,767 - #40 [
+INFO  13:20:47,767 - #41 ]
+INFO  13:20:47,767 - #5 ;
+INFO  13:20:47,767 - #3 {
+INFO  13:20:47,767 - #15 int
+INFO  13:20:47,767 - #15 sum
+INFO  13:20:47,767 - #6 (
+INFO  13:20:47,767 - #15 int
+INFO  13:20:47,767 - #15 z
+INFO  13:20:47,767 - #8 ,
+ERROR 13:20:47,767 - 
+Sintaksna greska na liniji 13
+ERROR 13:20:47,767 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 13

@@ -1,0 +1,157 @@
+Program(
+  ProgName(
+   oporavak
+  ) [ProgName]
+  ProgramVariables(
+    ProgramVariables(
+      ProgramEmpty(
+      ) [ProgramEmpty]
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        VarExpressionsError(
+          VarExpr(
+           i
+            NoExistingBrackets(
+            ) [NoExistingBrackets]
+          ) [VarExpr]
+        ) [VarExpressionsError]
+      ) [VarDeclaration]
+    ) [ProgramVariables]
+    VarDeclError(
+      Type(
+       int
+      ) [Type]
+    ) [VarDeclError]
+  ) [ProgramVariables]
+  MethodDeclarations(
+    MethodDeclarations(
+      MethodDeclarations(
+        MethodDeclarations(
+          NoMethodDecl(
+          ) [NoMethodDecl]
+          MethodDecl(
+            MethodVoid(
+             pogreska
+            ) [MethodVoid]
+            ParametersError(
+            ) [ParametersError]
+            NoVarDecl(
+            ) [NoVarDecl]
+            StatementEmpty(
+            ) [StatementEmpty]
+          ) [MethodDecl]
+        ) [MethodDeclarations]
+        MethodDecl(
+          MethodVoid(
+           pogreskadva
+          ) [MethodVoid]
+          Parameters(
+            FormParsListError(
+              TypeBrackets(
+                Type(
+                 int
+                ) [Type]
+               x
+                NoExistingBrackets(
+                ) [NoExistingBrackets]
+              ) [TypeBrackets]
+            ) [FormParsListError]
+          ) [Parameters]
+          NoVarDecl(
+          ) [NoVarDecl]
+          Statements(
+            StatementEmpty(
+            ) [StatementEmpty]
+            StatemtntIf(
+              BasicIfError(
+                StatementReturn(
+                ) [StatementReturn]
+              ) [BasicIfError]
+            ) [StatemtntIf]
+          ) [Statements]
+        ) [MethodDecl]
+      ) [MethodDeclarations]
+      MethodDecl(
+        MethodVoid(
+         pogreskatri
+        ) [MethodVoid]
+        Parameters(
+          FormParsSingle(
+            TypeBrackets(
+              Type(
+               int
+              ) [Type]
+             x
+              NoExistingBrackets(
+              ) [NoExistingBrackets]
+            ) [TypeBrackets]
+          ) [FormParsSingle]
+        ) [Parameters]
+        NoVarDecl(
+        ) [NoVarDecl]
+        Statements(
+          StatementEmpty(
+          ) [StatementEmpty]
+          StatementDesignator(
+            DesignatorStatementAssignError(
+              DesignatorIdent(
+               x
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+            ) [DesignatorStatementAssignError]
+          ) [StatementDesignator]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoParameters(
+      ) [NoParameters]
+      NoVarDecl(
+      ) [NoVarDecl]
+      StatementEmpty(
+      ) [StatementEmpty]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+Na liniji: 3 desio se oporavak od greske pri deklaraciji promenljive do ',' 
+Na liniji: 4 desio se oporavak od greske pri deklaraciji promenljive do ';' 
+Na liniji: 8 desio se oporavak od greske pri deklaraciji formalnog parametra do ')' 
+Na liniji: 11 desio se oporavak od greske pri deklaraciji formalnog parametra do ',' 
+Na liniji: 12 desio se oporavak od greske kod logickog izraza unutar if konstrukcije do ')' 
+Koristi se formalni parametar funkcije Var x: int, 0, 1  na liniji 16
+Na liniji: 16 desio se oporavak od greske pri dodeli vrednosti do ';' 
+=====================SYMBOL TABLE DUMP=========================
+Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: , -1, -1 
+Prog oporavak: notype, 0, 1 
+   Var i: int, 0, 0 
+   Meth pogreska: notype, 0, 0 
+
+   Meth pogreskadva: notype, 0, 1 
+      Var x: int, 0, 1 
+
+   Meth pogreskatri: notype, 0, 1 
+      Var x: int, 0, 1 
+
+   Meth main: notype, 0, 0 
+
+
+

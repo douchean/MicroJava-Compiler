@@ -1,0 +1,60 @@
+
+program nivoA
+
+	char text[];
+	int numbers[];
+	
+	enum Color { BELA, PLAVA=3, CRVENA}
+
+	const int first = 1;
+	bool flag;
+	
+{
+	void main()	
+		int res;
+		Color col1, col2, col3;
+	{
+		col1 = Color.BELA;
+		col2 = Color.CRVENA;	
+		col3 = Color.PLAVA;
+
+		res = 0;
+		res++;
+		res = res + col1;
+		res = res * col2;
+		res = res - col3;
+		res--;
+		print(res);
+			
+		flag = true;
+		
+		if (flag == true){
+			numbers = new int[2];
+			numbers[col1] = 0;
+			niz[1] = Color.CRVENA;
+			numbers[1] = Color.CRVENA;
+			res = numbers[1]/numbers[0];
+			print(res);
+		}
+		
+		text = new char[3];
+		text[Color.BELA] = 'a';
+		text[first] = 'b';
+		text[col3] = 'c';
+		print( text[2 - 1]);
+		print( text[first * 2]);
+			
+		
+		res = res + ((pet * first - 1) * 2 - (3 % 2 + 3 * 2 - 3) - (Color.Crvena - 3) * 0); 
+		print(res);
+			
+			
+		read(res);
+		res = res + 1;
+		print(res);
+			
+	
+	}
+}
+
+

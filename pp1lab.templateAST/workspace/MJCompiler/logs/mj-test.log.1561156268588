@@ -1,0 +1,81 @@
+INFO  00:48:02,529 - Compiling source file: C:\Users\Dusan\Desktop\micko\pp1lab.templateAST\workspace\MJCompiler\test\oporavak.mj
+INFO  00:48:02,835 - #2 program
+INFO  00:48:02,835 - #15 oporavak
+INFO  00:48:02,835 - #15 int
+INFO  00:48:02,837 - #11 +
+ERROR 00:48:02,838 - 
+Sintaksna greska na liniji 3
+INFO  00:48:02,838 - #8 ,
+INFO  00:48:02,838 - #15 i
+INFO  00:48:02,838 - #5 ;
+INFO  00:48:02,839 - #15 int
+INFO  00:48:02,845 - #11 +
+ERROR 00:48:02,845 - 
+Sintaksna greska na liniji 4
+INFO  00:48:02,846 - #5 ;
+INFO  00:48:02,846 - #3 {
+INFO  00:48:02,846 - #13 void
+INFO  00:48:02,846 - #15 pogreska
+INFO  00:48:02,848 - #6 (
+INFO  00:48:02,848 - #22 ++
+ERROR 00:48:02,848 - 
+Sintaksna greska na liniji 8
+INFO  00:48:02,848 - #7 )
+INFO  00:48:02,849 - #3 {
+INFO  00:48:02,849 - #4 }
+INFO  00:48:02,849 - #13 void
+INFO  00:48:02,853 - #15 pogreskadva
+INFO  00:48:02,853 - #6 (
+INFO  00:48:02,853 - #47 899
+ERROR 00:48:02,853 - 
+Sintaksna greska na liniji 11
+INFO  00:48:02,853 - #8 ,
+INFO  00:48:02,853 - #15 int
+INFO  00:48:02,853 - #15 x
+INFO  00:48:02,853 - #7 )
+INFO  00:48:02,869 - #3 {
+INFO  00:48:02,869 - #16 if
+INFO  00:48:02,869 - #6 (
+INFO  00:48:02,869 - #15 x
+INFO  00:48:02,869 - #12 =
+ERROR 00:48:02,869 - 
+Sintaksna greska na liniji 12
+INFO  00:48:02,869 - #26 -
+INFO  00:48:02,869 - #15 po
+INFO  00:48:02,870 - #7 )
+INFO  00:48:02,870 - #10 return
+INFO  00:48:02,870 - #5 ;
+INFO  00:48:02,870 - #4 }
+INFO  00:48:02,871 - #13 void
+INFO  00:48:02,872 - #15 pogreskatri
+INFO  00:48:02,872 - #6 (
+INFO  00:48:02,872 - #15 int
+INFO  00:48:02,872 - #15 x
+INFO  00:48:02,873 - #7 )
+INFO  00:48:02,873 - #3 {
+INFO  00:48:02,873 - #15 x
+INFO  00:48:02,873 - #12 =
+INFO  00:48:02,873 - #47 6
+INFO  00:48:02,875 - #11 +
+INFO  00:48:02,876 - #47 6
+INFO  00:48:02,879 - #11 +
+INFO  00:48:02,879 - #47 6
+INFO  00:48:02,879 - #11 +
+INFO  00:48:02,879 - #47 6
+INFO  00:48:02,880 - #11 +
+INFO  00:48:02,886 - #47 6
+INFO  00:48:02,887 - #11 +
+INFO  00:48:02,887 - #47 6
+INFO  00:48:02,887 - #11 +
+INFO  00:48:02,888 - #5 ;
+ERROR 00:48:02,888 - 
+Sintaksna greska na liniji 16
+INFO  00:48:02,888 - #4 }
+INFO  00:48:02,888 - #13 void
+INFO  00:48:02,888 - #15 main
+INFO  00:48:02,889 - #6 (
+INFO  00:48:02,890 - #7 )
+INFO  00:48:02,890 - #3 {
+INFO  00:48:02,893 - #4 }
+INFO  00:48:02,894 - #4 }
+ERROR 00:48:02,972 - Parsiranje NIJE uspesno zavrseno!

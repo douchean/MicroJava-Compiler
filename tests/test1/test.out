@@ -1,0 +1,1228 @@
+Program(
+  ProgName(
+   nivoA
+  ) [ProgName]
+  ProgramVariables(
+    ProgramConstants(
+      ProgramEnums(
+        ProgramVariables(
+          ProgramVariables(
+            ProgramEmpty(
+            ) [ProgramEmpty]
+            VarDeclaration(
+              Type(
+               char
+              ) [Type]
+              VarExpressionSingle(
+                VarExpr(
+                 nizch
+                  ExistingBrackets(
+                  ) [ExistingBrackets]
+                ) [VarExpr]
+              ) [VarExpressionSingle]
+            ) [VarDeclaration]
+          ) [ProgramVariables]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            VarExpressionSingle(
+              VarExpr(
+               niz
+                ExistingBrackets(
+                ) [ExistingBrackets]
+              ) [VarExpr]
+            ) [VarExpressionSingle]
+          ) [VarDeclaration]
+        ) [ProgramVariables]
+        EnumDecl(
+          EnumName(
+           Brojevi
+          ) [EnumName]
+          EnumExpressions(
+            EnumExpressions(
+              EnumExpressionSingle(
+                EnumExpressionIdent(
+                 NULA
+                ) [EnumExpressionIdent]
+              ) [EnumExpressionSingle]
+              EnumExpressionIdentNumConst(
+               TRI
+               3
+              ) [EnumExpressionIdentNumConst]
+            ) [EnumExpressions]
+            EnumExpressionIdent(
+             CETIRI
+            ) [EnumExpressionIdent]
+          ) [EnumExpressions]
+        ) [EnumDecl]
+      ) [ProgramEnums]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstExpressionSingle(
+          ConstantNumber(
+           first
+           1
+          ) [ConstantNumber]
+        ) [ConstExpressionSingle]
+      ) [ConstDecl]
+    ) [ProgramConstants]
+    VarDeclaration(
+      Type(
+       bool
+      ) [Type]
+      VarExpressionSingle(
+        VarExpr(
+         flag
+          NoExistingBrackets(
+          ) [NoExistingBrackets]
+        ) [VarExpr]
+      ) [VarExpressionSingle]
+    ) [VarDeclaration]
+  ) [ProgramVariables]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoParameters(
+      ) [NoParameters]
+      VarDeclarations(
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            VarExpressionSingle(
+              VarExpr(
+               res
+                NoExistingBrackets(
+                ) [NoExistingBrackets]
+              ) [VarExpr]
+            ) [VarExpressionSingle]
+          ) [VarDeclaration]
+        ) [VarDeclarations]
+        VarDeclaration(
+          Type(
+           Brojevi
+          ) [Type]
+          VarExpressions(
+            VarExpressions(
+              VarExpressionSingle(
+                VarExpr(
+                 col1
+                  NoExistingBrackets(
+                  ) [NoExistingBrackets]
+                ) [VarExpr]
+              ) [VarExpressionSingle]
+              VarExpr(
+               col2
+                NoExistingBrackets(
+                ) [NoExistingBrackets]
+              ) [VarExpr]
+            ) [VarExpressions]
+            VarExpr(
+             col3
+              NoExistingBrackets(
+              ) [NoExistingBrackets]
+            ) [VarExpr]
+          ) [VarExpressions]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        Statements(
+                                          Statements(
+                                            Statements(
+                                              Statements(
+                                                Statements(
+                                                  Statements(
+                                                    StatementEmpty(
+                                                    ) [StatementEmpty]
+                                                    StatementDesignator(
+                                                      DesignatorStatementAssign(
+                                                        DesignatorIdent(
+                                                         col1
+                                                        ) [DesignatorIdent]
+                                                        Assignop(
+                                                        ) [Assignop]
+                                                        ExpressionPositive(
+                                                          TermListSingle(
+                                                            TermSingle(
+                                                              PowerFact(
+                                                                FactDesignator(
+                                                                  DesignatorListIdent(
+                                                                    DesignatorIdent(
+                                                                     Brojevi
+                                                                    ) [DesignatorIdent]
+                                                                   NULA
+                                                                  ) [DesignatorListIdent]
+                                                                ) [FactDesignator]
+                                                              ) [PowerFact]
+                                                            ) [TermSingle]
+                                                          ) [TermListSingle]
+                                                        ) [ExpressionPositive]
+                                                      ) [DesignatorStatementAssign]
+                                                    ) [StatementDesignator]
+                                                  ) [Statements]
+                                                  StatementDesignator(
+                                                    DesignatorStatementAssign(
+                                                      DesignatorIdent(
+                                                       col2
+                                                      ) [DesignatorIdent]
+                                                      Assignop(
+                                                      ) [Assignop]
+                                                      ExpressionPositive(
+                                                        TermListSingle(
+                                                          TermSingle(
+                                                            PowerFact(
+                                                              FactDesignator(
+                                                                DesignatorListIdent(
+                                                                  DesignatorIdent(
+                                                                   Brojevi
+                                                                  ) [DesignatorIdent]
+                                                                 CETIRI
+                                                                ) [DesignatorListIdent]
+                                                              ) [FactDesignator]
+                                                            ) [PowerFact]
+                                                          ) [TermSingle]
+                                                        ) [TermListSingle]
+                                                      ) [ExpressionPositive]
+                                                    ) [DesignatorStatementAssign]
+                                                  ) [StatementDesignator]
+                                                ) [Statements]
+                                                StatementDesignator(
+                                                  DesignatorStatementAssign(
+                                                    DesignatorIdent(
+                                                     col3
+                                                    ) [DesignatorIdent]
+                                                    Assignop(
+                                                    ) [Assignop]
+                                                    ExpressionPositive(
+                                                      TermListSingle(
+                                                        TermSingle(
+                                                          PowerFact(
+                                                            FactDesignator(
+                                                              DesignatorListIdent(
+                                                                DesignatorIdent(
+                                                                 Brojevi
+                                                                ) [DesignatorIdent]
+                                                               TRI
+                                                              ) [DesignatorListIdent]
+                                                            ) [FactDesignator]
+                                                          ) [PowerFact]
+                                                        ) [TermSingle]
+                                                      ) [TermListSingle]
+                                                    ) [ExpressionPositive]
+                                                  ) [DesignatorStatementAssign]
+                                                ) [StatementDesignator]
+                                              ) [Statements]
+                                              StatementDesignator(
+                                                DesignatorStatementAssign(
+                                                  DesignatorIdent(
+                                                   res
+                                                  ) [DesignatorIdent]
+                                                  Assignop(
+                                                  ) [Assignop]
+                                                  ExpressionPositive(
+                                                    TermListSingle(
+                                                      TermSingle(
+                                                        PowerFact(
+                                                          FactNumber(
+                                                           0
+                                                          ) [FactNumber]
+                                                        ) [PowerFact]
+                                                      ) [TermSingle]
+                                                    ) [TermListSingle]
+                                                  ) [ExpressionPositive]
+                                                ) [DesignatorStatementAssign]
+                                              ) [StatementDesignator]
+                                            ) [Statements]
+                                            StatementDesignator(
+                                              DesignatorStatementIncrement(
+                                                DesignatorIdent(
+                                                 res
+                                                ) [DesignatorIdent]
+                                              ) [DesignatorStatementIncrement]
+                                            ) [StatementDesignator]
+                                          ) [Statements]
+                                          StatementDesignator(
+                                            DesignatorStatementAssign(
+                                              DesignatorIdent(
+                                               res
+                                              ) [DesignatorIdent]
+                                              Assignop(
+                                              ) [Assignop]
+                                              ExpressionPositive(
+                                                TermListAddop(
+                                                  TermListSingle(
+                                                    TermSingle(
+                                                      PowerFact(
+                                                        FactDesignator(
+                                                          DesignatorIdent(
+                                                           res
+                                                          ) [DesignatorIdent]
+                                                        ) [FactDesignator]
+                                                      ) [PowerFact]
+                                                    ) [TermSingle]
+                                                  ) [TermListSingle]
+                                                  AddopPlus(
+                                                  ) [AddopPlus]
+                                                  TermSingle(
+                                                    PowerFact(
+                                                      FactDesignator(
+                                                        DesignatorIdent(
+                                                         col1
+                                                        ) [DesignatorIdent]
+                                                      ) [FactDesignator]
+                                                    ) [PowerFact]
+                                                  ) [TermSingle]
+                                                ) [TermListAddop]
+                                              ) [ExpressionPositive]
+                                            ) [DesignatorStatementAssign]
+                                          ) [StatementDesignator]
+                                        ) [Statements]
+                                        StatementDesignator(
+                                          DesignatorStatementAssign(
+                                            DesignatorIdent(
+                                             res
+                                            ) [DesignatorIdent]
+                                            Assignop(
+                                            ) [Assignop]
+                                            ExpressionPositive(
+                                              TermListSingle(
+                                                TermMultiplied(
+                                                  TermSingle(
+                                                    PowerFact(
+                                                      FactDesignator(
+                                                        DesignatorIdent(
+                                                         res
+                                                        ) [DesignatorIdent]
+                                                      ) [FactDesignator]
+                                                    ) [PowerFact]
+                                                  ) [TermSingle]
+                                                  MultipleOp(
+                                                  ) [MultipleOp]
+                                                  PowerFact(
+                                                    FactDesignator(
+                                                      DesignatorIdent(
+                                                       col2
+                                                      ) [DesignatorIdent]
+                                                    ) [FactDesignator]
+                                                  ) [PowerFact]
+                                                ) [TermMultiplied]
+                                              ) [TermListSingle]
+                                            ) [ExpressionPositive]
+                                          ) [DesignatorStatementAssign]
+                                        ) [StatementDesignator]
+                                      ) [Statements]
+                                      StatementDesignator(
+                                        DesignatorStatementAssign(
+                                          DesignatorIdent(
+                                           res
+                                          ) [DesignatorIdent]
+                                          Assignop(
+                                          ) [Assignop]
+                                          ExpressionPositive(
+                                            TermListAddop(
+                                              TermListSingle(
+                                                TermSingle(
+                                                  PowerFact(
+                                                    FactDesignator(
+                                                      DesignatorIdent(
+                                                       res
+                                                      ) [DesignatorIdent]
+                                                    ) [FactDesignator]
+                                                  ) [PowerFact]
+                                                ) [TermSingle]
+                                              ) [TermListSingle]
+                                              AddopMinus(
+                                              ) [AddopMinus]
+                                              TermSingle(
+                                                PowerFact(
+                                                  FactDesignator(
+                                                    DesignatorIdent(
+                                                     col3
+                                                    ) [DesignatorIdent]
+                                                  ) [FactDesignator]
+                                                ) [PowerFact]
+                                              ) [TermSingle]
+                                            ) [TermListAddop]
+                                          ) [ExpressionPositive]
+                                        ) [DesignatorStatementAssign]
+                                      ) [StatementDesignator]
+                                    ) [Statements]
+                                    StatementDesignator(
+                                      DesignatorStatementDecrement(
+                                        DesignatorIdent(
+                                         res
+                                        ) [DesignatorIdent]
+                                      ) [DesignatorStatementDecrement]
+                                    ) [StatementDesignator]
+                                  ) [Statements]
+                                  StatementPrintExpr(
+                                    ExpressionPositive(
+                                      TermListSingle(
+                                        TermSingle(
+                                          PowerFact(
+                                            FactDesignator(
+                                              DesignatorIdent(
+                                               res
+                                              ) [DesignatorIdent]
+                                            ) [FactDesignator]
+                                          ) [PowerFact]
+                                        ) [TermSingle]
+                                      ) [TermListSingle]
+                                    ) [ExpressionPositive]
+                                  ) [StatementPrintExpr]
+                                ) [Statements]
+                                StatementDesignator(
+                                  DesignatorStatementAssign(
+                                    DesignatorIdent(
+                                     flag
+                                    ) [DesignatorIdent]
+                                    Assignop(
+                                    ) [Assignop]
+                                    ExpressionPositive(
+                                      TermListSingle(
+                                        TermSingle(
+                                          PowerFact(
+                                            FactBool(
+                                             true
+                                            ) [FactBool]
+                                          ) [PowerFact]
+                                        ) [TermSingle]
+                                      ) [TermListSingle]
+                                    ) [ExpressionPositive]
+                                  ) [DesignatorStatementAssign]
+                                ) [StatementDesignator]
+                              ) [Statements]
+                              StatemtntIf(
+                                BasicIffy(
+                                  IfCond(
+                                    ConditionSingle(
+                                      ConditionTermSingle(
+                                        ConditionFactExpressions(
+                                          ExpressionPositive(
+                                            TermListSingle(
+                                              TermSingle(
+                                                PowerFact(
+                                                  FactDesignator(
+                                                    DesignatorIdent(
+                                                     flag
+                                                    ) [DesignatorIdent]
+                                                  ) [FactDesignator]
+                                                ) [PowerFact]
+                                              ) [TermSingle]
+                                            ) [TermListSingle]
+                                          ) [ExpressionPositive]
+                                          RelationalEqual(
+                                          ) [RelationalEqual]
+                                          ExpressionPositive(
+                                            TermListSingle(
+                                              TermSingle(
+                                                PowerFact(
+                                                  FactBool(
+                                                   true
+                                                  ) [FactBool]
+                                                ) [PowerFact]
+                                              ) [TermSingle]
+                                            ) [TermListSingle]
+                                          ) [ExpressionPositive]
+                                        ) [ConditionFactExpressions]
+                                      ) [ConditionTermSingle]
+                                    ) [ConditionSingle]
+                                  ) [IfCond]
+                                  StatementListStatement(
+                                    Statements(
+                                      Statements(
+                                        Statements(
+                                          Statements(
+                                            Statements(
+                                              StatementEmpty(
+                                              ) [StatementEmpty]
+                                              StatementDesignator(
+                                                DesignatorStatementAssign(
+                                                  DesignatorIdent(
+                                                   niz
+                                                  ) [DesignatorIdent]
+                                                  Assignop(
+                                                  ) [Assignop]
+                                                  ExpressionPositive(
+                                                    TermListSingle(
+                                                      TermSingle(
+                                                        PowerFact(
+                                                          FactNewExpr(
+                                                            NewTypeArr(
+                                                              Type(
+                                                               int
+                                                              ) [Type]
+                                                             2
+                                                            ) [NewTypeArr]
+                                                          ) [FactNewExpr]
+                                                        ) [PowerFact]
+                                                      ) [TermSingle]
+                                                    ) [TermListSingle]
+                                                  ) [ExpressionPositive]
+                                                ) [DesignatorStatementAssign]
+                                              ) [StatementDesignator]
+                                            ) [Statements]
+                                            StatementDesignator(
+                                              DesignatorStatementAssign(
+                                                DesignatorListExpr(
+                                                  ArrayDes(
+                                                    DesignatorIdent(
+                                                     niz
+                                                    ) [DesignatorIdent]
+                                                  ) [ArrayDes]
+                                                  ExpressionPositive(
+                                                    TermListSingle(
+                                                      TermSingle(
+                                                        PowerFact(
+                                                          FactDesignator(
+                                                            DesignatorIdent(
+                                                             col1
+                                                            ) [DesignatorIdent]
+                                                          ) [FactDesignator]
+                                                        ) [PowerFact]
+                                                      ) [TermSingle]
+                                                    ) [TermListSingle]
+                                                  ) [ExpressionPositive]
+                                                ) [DesignatorListExpr]
+                                                Assignop(
+                                                ) [Assignop]
+                                                ExpressionPositive(
+                                                  TermListSingle(
+                                                    TermSingle(
+                                                      PowerFact(
+                                                        FactNumber(
+                                                         1
+                                                        ) [FactNumber]
+                                                      ) [PowerFact]
+                                                    ) [TermSingle]
+                                                  ) [TermListSingle]
+                                                ) [ExpressionPositive]
+                                              ) [DesignatorStatementAssign]
+                                            ) [StatementDesignator]
+                                          ) [Statements]
+                                          StatementDesignator(
+                                            DesignatorStatementAssign(
+                                              DesignatorListExpr(
+                                                ArrayDes(
+                                                  DesignatorIdent(
+                                                   niz
+                                                  ) [DesignatorIdent]
+                                                ) [ArrayDes]
+                                                ExpressionPositive(
+                                                  TermListSingle(
+                                                    TermSingle(
+                                                      PowerFact(
+                                                        FactNumber(
+                                                         1
+                                                        ) [FactNumber]
+                                                      ) [PowerFact]
+                                                    ) [TermSingle]
+                                                  ) [TermListSingle]
+                                                ) [ExpressionPositive]
+                                              ) [DesignatorListExpr]
+                                              Assignop(
+                                              ) [Assignop]
+                                              ExpressionPositive(
+                                                TermListSingle(
+                                                  TermSingle(
+                                                    PowerFact(
+                                                      FactDesignator(
+                                                        DesignatorListIdent(
+                                                          DesignatorIdent(
+                                                           Brojevi
+                                                          ) [DesignatorIdent]
+                                                         CETIRI
+                                                        ) [DesignatorListIdent]
+                                                      ) [FactDesignator]
+                                                    ) [PowerFact]
+                                                  ) [TermSingle]
+                                                ) [TermListSingle]
+                                              ) [ExpressionPositive]
+                                            ) [DesignatorStatementAssign]
+                                          ) [StatementDesignator]
+                                        ) [Statements]
+                                        StatementDesignator(
+                                          DesignatorStatementAssign(
+                                            DesignatorIdent(
+                                             res
+                                            ) [DesignatorIdent]
+                                            Assignop(
+                                            ) [Assignop]
+                                            ExpressionPositive(
+                                              TermListSingle(
+                                                TermMultiplied(
+                                                  TermSingle(
+                                                    PowerFact(
+                                                      FactDesignator(
+                                                        DesignatorListExpr(
+                                                          ArrayDes(
+                                                            DesignatorIdent(
+                                                             niz
+                                                            ) [DesignatorIdent]
+                                                          ) [ArrayDes]
+                                                          ExpressionPositive(
+                                                            TermListSingle(
+                                                              TermSingle(
+                                                                PowerFact(
+                                                                  FactNumber(
+                                                                   1
+                                                                  ) [FactNumber]
+                                                                ) [PowerFact]
+                                                              ) [TermSingle]
+                                                            ) [TermListSingle]
+                                                          ) [ExpressionPositive]
+                                                        ) [DesignatorListExpr]
+                                                      ) [FactDesignator]
+                                                    ) [PowerFact]
+                                                  ) [TermSingle]
+                                                  DivideOp(
+                                                  ) [DivideOp]
+                                                  PowerFact(
+                                                    FactDesignator(
+                                                      DesignatorListExpr(
+                                                        ArrayDes(
+                                                          DesignatorIdent(
+                                                           niz
+                                                          ) [DesignatorIdent]
+                                                        ) [ArrayDes]
+                                                        ExpressionPositive(
+                                                          TermListSingle(
+                                                            TermSingle(
+                                                              PowerFact(
+                                                                FactNumber(
+                                                                 0
+                                                                ) [FactNumber]
+                                                              ) [PowerFact]
+                                                            ) [TermSingle]
+                                                          ) [TermListSingle]
+                                                        ) [ExpressionPositive]
+                                                      ) [DesignatorListExpr]
+                                                    ) [FactDesignator]
+                                                  ) [PowerFact]
+                                                ) [TermMultiplied]
+                                              ) [TermListSingle]
+                                            ) [ExpressionPositive]
+                                          ) [DesignatorStatementAssign]
+                                        ) [StatementDesignator]
+                                      ) [Statements]
+                                      StatementPrintExpr(
+                                        ExpressionPositive(
+                                          TermListSingle(
+                                            TermSingle(
+                                              PowerFact(
+                                                FactDesignator(
+                                                  DesignatorIdent(
+                                                   res
+                                                  ) [DesignatorIdent]
+                                                ) [FactDesignator]
+                                              ) [PowerFact]
+                                            ) [TermSingle]
+                                          ) [TermListSingle]
+                                        ) [ExpressionPositive]
+                                      ) [StatementPrintExpr]
+                                    ) [Statements]
+                                  ) [StatementListStatement]
+                                ) [BasicIffy]
+                              ) [StatemtntIf]
+                            ) [Statements]
+                            StatementDesignator(
+                              DesignatorStatementAssign(
+                                DesignatorIdent(
+                                 nizch
+                                ) [DesignatorIdent]
+                                Assignop(
+                                ) [Assignop]
+                                ExpressionPositive(
+                                  TermListSingle(
+                                    TermSingle(
+                                      PowerFact(
+                                        FactNewExpr(
+                                          NewTypeArr(
+                                            Type(
+                                             char
+                                            ) [Type]
+                                           3
+                                          ) [NewTypeArr]
+                                        ) [FactNewExpr]
+                                      ) [PowerFact]
+                                    ) [TermSingle]
+                                  ) [TermListSingle]
+                                ) [ExpressionPositive]
+                              ) [DesignatorStatementAssign]
+                            ) [StatementDesignator]
+                          ) [Statements]
+                          StatementDesignator(
+                            DesignatorStatementAssign(
+                              DesignatorListExpr(
+                                ArrayDes(
+                                  DesignatorIdent(
+                                   nizch
+                                  ) [DesignatorIdent]
+                                ) [ArrayDes]
+                                ExpressionPositive(
+                                  TermListSingle(
+                                    TermSingle(
+                                      PowerFact(
+                                        FactDesignator(
+                                          DesignatorListIdent(
+                                            DesignatorIdent(
+                                             Brojevi
+                                            ) [DesignatorIdent]
+                                           NULA
+                                          ) [DesignatorListIdent]
+                                        ) [FactDesignator]
+                                      ) [PowerFact]
+                                    ) [TermSingle]
+                                  ) [TermListSingle]
+                                ) [ExpressionPositive]
+                              ) [DesignatorListExpr]
+                              Assignop(
+                              ) [Assignop]
+                              ExpressionPositive(
+                                TermListSingle(
+                                  TermSingle(
+                                    PowerFact(
+                                      FactChar(
+                                       a
+                                      ) [FactChar]
+                                    ) [PowerFact]
+                                  ) [TermSingle]
+                                ) [TermListSingle]
+                              ) [ExpressionPositive]
+                            ) [DesignatorStatementAssign]
+                          ) [StatementDesignator]
+                        ) [Statements]
+                        StatementDesignator(
+                          DesignatorStatementAssign(
+                            DesignatorListExpr(
+                              ArrayDes(
+                                DesignatorIdent(
+                                 nizch
+                                ) [DesignatorIdent]
+                              ) [ArrayDes]
+                              ExpressionPositive(
+                                TermListSingle(
+                                  TermSingle(
+                                    PowerFact(
+                                      FactDesignator(
+                                        DesignatorIdent(
+                                         first
+                                        ) [DesignatorIdent]
+                                      ) [FactDesignator]
+                                    ) [PowerFact]
+                                  ) [TermSingle]
+                                ) [TermListSingle]
+                              ) [ExpressionPositive]
+                            ) [DesignatorListExpr]
+                            Assignop(
+                            ) [Assignop]
+                            ExpressionPositive(
+                              TermListSingle(
+                                TermSingle(
+                                  PowerFact(
+                                    FactChar(
+                                     b
+                                    ) [FactChar]
+                                  ) [PowerFact]
+                                ) [TermSingle]
+                              ) [TermListSingle]
+                            ) [ExpressionPositive]
+                          ) [DesignatorStatementAssign]
+                        ) [StatementDesignator]
+                      ) [Statements]
+                      StatementDesignator(
+                        DesignatorStatementAssign(
+                          DesignatorListExpr(
+                            ArrayDes(
+                              DesignatorIdent(
+                               nizch
+                              ) [DesignatorIdent]
+                            ) [ArrayDes]
+                            ExpressionPositive(
+                              TermListSingle(
+                                TermSingle(
+                                  PowerFact(
+                                    FactNumber(
+                                     2
+                                    ) [FactNumber]
+                                  ) [PowerFact]
+                                ) [TermSingle]
+                              ) [TermListSingle]
+                            ) [ExpressionPositive]
+                          ) [DesignatorListExpr]
+                          Assignop(
+                          ) [Assignop]
+                          ExpressionPositive(
+                            TermListSingle(
+                              TermSingle(
+                                PowerFact(
+                                  FactChar(
+                                   c
+                                  ) [FactChar]
+                                ) [PowerFact]
+                              ) [TermSingle]
+                            ) [TermListSingle]
+                          ) [ExpressionPositive]
+                        ) [DesignatorStatementAssign]
+                      ) [StatementDesignator]
+                    ) [Statements]
+                    StatementPrintExpr(
+                      ExpressionPositive(
+                        TermListSingle(
+                          TermSingle(
+                            PowerFact(
+                              FactDesignator(
+                                DesignatorListExpr(
+                                  ArrayDes(
+                                    DesignatorIdent(
+                                     nizch
+                                    ) [DesignatorIdent]
+                                  ) [ArrayDes]
+                                  ExpressionPositive(
+                                    TermListAddop(
+                                      TermListSingle(
+                                        TermSingle(
+                                          PowerFact(
+                                            FactNumber(
+                                             2
+                                            ) [FactNumber]
+                                          ) [PowerFact]
+                                        ) [TermSingle]
+                                      ) [TermListSingle]
+                                      AddopMinus(
+                                      ) [AddopMinus]
+                                      TermSingle(
+                                        PowerFact(
+                                          FactNumber(
+                                           1
+                                          ) [FactNumber]
+                                        ) [PowerFact]
+                                      ) [TermSingle]
+                                    ) [TermListAddop]
+                                  ) [ExpressionPositive]
+                                ) [DesignatorListExpr]
+                              ) [FactDesignator]
+                            ) [PowerFact]
+                          ) [TermSingle]
+                        ) [TermListSingle]
+                      ) [ExpressionPositive]
+                    ) [StatementPrintExpr]
+                  ) [Statements]
+                  StatementPrintExpr(
+                    ExpressionPositive(
+                      TermListSingle(
+                        TermSingle(
+                          PowerFact(
+                            FactDesignator(
+                              DesignatorListExpr(
+                                ArrayDes(
+                                  DesignatorIdent(
+                                   nizch
+                                  ) [DesignatorIdent]
+                                ) [ArrayDes]
+                                ExpressionPositive(
+                                  TermListSingle(
+                                    TermMultiplied(
+                                      TermSingle(
+                                        PowerFact(
+                                          FactDesignator(
+                                            DesignatorIdent(
+                                             first
+                                            ) [DesignatorIdent]
+                                          ) [FactDesignator]
+                                        ) [PowerFact]
+                                      ) [TermSingle]
+                                      MultipleOp(
+                                      ) [MultipleOp]
+                                      PowerFact(
+                                        FactNumber(
+                                         2
+                                        ) [FactNumber]
+                                      ) [PowerFact]
+                                    ) [TermMultiplied]
+                                  ) [TermListSingle]
+                                ) [ExpressionPositive]
+                              ) [DesignatorListExpr]
+                            ) [FactDesignator]
+                          ) [PowerFact]
+                        ) [TermSingle]
+                      ) [TermListSingle]
+                    ) [ExpressionPositive]
+                  ) [StatementPrintExpr]
+                ) [Statements]
+                StatementDesignator(
+                  DesignatorStatementAssign(
+                    DesignatorIdent(
+                     res
+                    ) [DesignatorIdent]
+                    Assignop(
+                    ) [Assignop]
+                    ExpressionPositive(
+                      TermListAddop(
+                        TermListSingle(
+                          TermSingle(
+                            PowerFact(
+                              FactDesignator(
+                                DesignatorIdent(
+                                 res
+                                ) [DesignatorIdent]
+                              ) [FactDesignator]
+                            ) [PowerFact]
+                          ) [TermSingle]
+                        ) [TermListSingle]
+                        AddopPlus(
+                        ) [AddopPlus]
+                        TermSingle(
+                          PowerFact(
+                            FactExpr(
+                              ExpressionPositive(
+                                TermListAddop(
+                                  TermListAddop(
+                                    TermListSingle(
+                                      TermMultiplied(
+                                        TermSingle(
+                                          PowerFact(
+                                            FactExpr(
+                                              ExpressionPositive(
+                                                TermListAddop(
+                                                  TermListSingle(
+                                                    TermMultiplied(
+                                                      TermSingle(
+                                                        PowerFact(
+                                                          FactDesignator(
+                                                            DesignatorIdent(
+                                                             first
+                                                            ) [DesignatorIdent]
+                                                          ) [FactDesignator]
+                                                        ) [PowerFact]
+                                                      ) [TermSingle]
+                                                      MultipleOp(
+                                                      ) [MultipleOp]
+                                                      PowerFact(
+                                                        FactDesignator(
+                                                          DesignatorIdent(
+                                                           first
+                                                          ) [DesignatorIdent]
+                                                        ) [FactDesignator]
+                                                      ) [PowerFact]
+                                                    ) [TermMultiplied]
+                                                  ) [TermListSingle]
+                                                  AddopMinus(
+                                                  ) [AddopMinus]
+                                                  TermSingle(
+                                                    PowerFact(
+                                                      FactNumber(
+                                                       1
+                                                      ) [FactNumber]
+                                                    ) [PowerFact]
+                                                  ) [TermSingle]
+                                                ) [TermListAddop]
+                                              ) [ExpressionPositive]
+                                            ) [FactExpr]
+                                          ) [PowerFact]
+                                        ) [TermSingle]
+                                        MultipleOp(
+                                        ) [MultipleOp]
+                                        PowerFact(
+                                          FactNumber(
+                                           2
+                                          ) [FactNumber]
+                                        ) [PowerFact]
+                                      ) [TermMultiplied]
+                                    ) [TermListSingle]
+                                    AddopMinus(
+                                    ) [AddopMinus]
+                                    TermSingle(
+                                      PowerFact(
+                                        FactExpr(
+                                          ExpressionPositive(
+                                            TermListAddop(
+                                              TermListAddop(
+                                                TermListSingle(
+                                                  TermMultiplied(
+                                                    TermSingle(
+                                                      PowerFact(
+                                                        FactNumber(
+                                                         3
+                                                        ) [FactNumber]
+                                                      ) [PowerFact]
+                                                    ) [TermSingle]
+                                                    PercentOp(
+                                                    ) [PercentOp]
+                                                    PowerFact(
+                                                      FactNumber(
+                                                       2
+                                                      ) [FactNumber]
+                                                    ) [PowerFact]
+                                                  ) [TermMultiplied]
+                                                ) [TermListSingle]
+                                                AddopPlus(
+                                                ) [AddopPlus]
+                                                TermMultiplied(
+                                                  TermSingle(
+                                                    PowerFact(
+                                                      FactNumber(
+                                                       3
+                                                      ) [FactNumber]
+                                                    ) [PowerFact]
+                                                  ) [TermSingle]
+                                                  MultipleOp(
+                                                  ) [MultipleOp]
+                                                  PowerFact(
+                                                    FactNumber(
+                                                     2
+                                                    ) [FactNumber]
+                                                  ) [PowerFact]
+                                                ) [TermMultiplied]
+                                              ) [TermListAddop]
+                                              AddopMinus(
+                                              ) [AddopMinus]
+                                              TermSingle(
+                                                PowerFact(
+                                                  FactNumber(
+                                                   3
+                                                  ) [FactNumber]
+                                                ) [PowerFact]
+                                              ) [TermSingle]
+                                            ) [TermListAddop]
+                                          ) [ExpressionPositive]
+                                        ) [FactExpr]
+                                      ) [PowerFact]
+                                    ) [TermSingle]
+                                  ) [TermListAddop]
+                                  AddopMinus(
+                                  ) [AddopMinus]
+                                  TermMultiplied(
+                                    TermSingle(
+                                      PowerFact(
+                                        FactExpr(
+                                          ExpressionPositive(
+                                            TermListAddop(
+                                              TermListSingle(
+                                                TermSingle(
+                                                  PowerFact(
+                                                    FactDesignator(
+                                                      DesignatorListIdent(
+                                                        DesignatorIdent(
+                                                         Brojevi
+                                                        ) [DesignatorIdent]
+                                                       CETIRI
+                                                      ) [DesignatorListIdent]
+                                                    ) [FactDesignator]
+                                                  ) [PowerFact]
+                                                ) [TermSingle]
+                                              ) [TermListSingle]
+                                              AddopMinus(
+                                              ) [AddopMinus]
+                                              TermSingle(
+                                                PowerFact(
+                                                  FactNumber(
+                                                   3
+                                                  ) [FactNumber]
+                                                ) [PowerFact]
+                                              ) [TermSingle]
+                                            ) [TermListAddop]
+                                          ) [ExpressionPositive]
+                                        ) [FactExpr]
+                                      ) [PowerFact]
+                                    ) [TermSingle]
+                                    MultipleOp(
+                                    ) [MultipleOp]
+                                    PowerFact(
+                                      FactNumber(
+                                       0
+                                      ) [FactNumber]
+                                    ) [PowerFact]
+                                  ) [TermMultiplied]
+                                ) [TermListAddop]
+                              ) [ExpressionPositive]
+                            ) [FactExpr]
+                          ) [PowerFact]
+                        ) [TermSingle]
+                      ) [TermListAddop]
+                    ) [ExpressionPositive]
+                  ) [DesignatorStatementAssign]
+                ) [StatementDesignator]
+              ) [Statements]
+              StatementPrintExpr(
+                ExpressionPositive(
+                  TermListSingle(
+                    TermSingle(
+                      PowerFact(
+                        FactDesignator(
+                          DesignatorIdent(
+                           res
+                          ) [DesignatorIdent]
+                        ) [FactDesignator]
+                      ) [PowerFact]
+                    ) [TermSingle]
+                  ) [TermListSingle]
+                ) [ExpressionPositive]
+              ) [StatementPrintExpr]
+            ) [Statements]
+            StatementRead(
+              DesignatorIdent(
+               res
+              ) [DesignatorIdent]
+            ) [StatementRead]
+          ) [Statements]
+          StatementDesignator(
+            DesignatorStatementAssign(
+              DesignatorIdent(
+               res
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+              ExpressionPositive(
+                TermListAddop(
+                  TermListSingle(
+                    TermSingle(
+                      PowerFact(
+                        FactDesignator(
+                          DesignatorIdent(
+                           res
+                          ) [DesignatorIdent]
+                        ) [FactDesignator]
+                      ) [PowerFact]
+                    ) [TermSingle]
+                  ) [TermListSingle]
+                  AddopPlus(
+                  ) [AddopPlus]
+                  TermSingle(
+                    PowerFact(
+                      FactNumber(
+                       1
+                      ) [FactNumber]
+                    ) [PowerFact]
+                  ) [TermSingle]
+                ) [TermListAddop]
+              ) [ExpressionPositive]
+            ) [DesignatorStatementAssign]
+          ) [StatementDesignator]
+        ) [Statements]
+        StatementPrintExpr(
+          ExpressionPositive(
+            TermListSingle(
+              TermSingle(
+                PowerFact(
+                  FactDesignator(
+                    DesignatorIdent(
+                     res
+                    ) [DesignatorIdent]
+                  ) [FactDesignator]
+                ) [PowerFact]
+              ) [TermSingle]
+            ) [TermListSingle]
+          ) [ExpressionPositive]
+        ) [StatementPrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+Koristi se lokalna promenljiva Var col1: int, 1, 1  na liniji 17
+Koristi se lokalna promenljiva Var col2: int, 2, 1  na liniji 18
+Koristi se lokalna promenljiva Var col3: int, 3, 1  na liniji 19
+Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 21
+Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 22
+Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 23
+Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 23
+Koristi se lokalna promenljiva Var col1: int, 1, 1  na liniji 23
+Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 24
+Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 24
+Koristi se lokalna promenljiva Var col2: int, 2, 1  na liniji 24
+Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 25
+Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 25
+Koristi se lokalna promenljiva Var col3: int, 3, 1  na liniji 25
+Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 26
+Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 27
+Koristi se globalna promenljiva Var flag: , 2, 0  na liniji 29
+Koristi se globalna promenljiva Var flag: , 2, 0  na liniji 31
+Koristi se globalna promenljiva Var niz: Arr of int, 1, 0  na liniji 32
+Koristi se globalna promenljiva Var niz: Arr of int, 1, 0  na liniji 33
+Koristi se lokalna promenljiva Var col1: int, 1, 1  na liniji 33
+Koristi se element niza : int, -1, -1  na liniji 33
+Koristi se globalna promenljiva Var niz: Arr of int, 1, 0  na liniji 35
+Koristi se element niza : int, -1, -1  na liniji 35
+Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 36
+Koristi se globalna promenljiva Var niz: Arr of int, 1, 0  na liniji 36
+Koristi se element niza : int, -1, -1  na liniji 36
+Koristi se globalna promenljiva Var niz: Arr of int, 1, 0  na liniji 36
+Koristi se element niza : int, -1, -1  na liniji 36
+Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 37
+Koristi se globalna promenljiva Var nizch: Arr of char, 0, 0  na liniji 40
+Koristi se globalna promenljiva Var nizch: Arr of char, 0, 0  na liniji 41
+Koristi se element niza : char, -1, -1  na liniji 41
+Koristi se globalna promenljiva Var nizch: Arr of char, 0, 0  na liniji 42
+Koristi se konstanta Con first: int, 1, 0  na liniji 42
+Koristi se element niza : char, -1, -1  na liniji 42
+Koristi se globalna promenljiva Var nizch: Arr of char, 0, 0  na liniji 43
+Koristi se element niza : char, -1, -1  na liniji 43
+Koristi se globalna promenljiva Var nizch: Arr of char, 0, 0  na liniji 44
+Koristi se element niza : char, -1, -1  na liniji 44
+Koristi se globalna promenljiva Var nizch: Arr of char, 0, 0  na liniji 45
+Koristi se konstanta Con first: int, 1, 0  na liniji 45
+Koristi se element niza : char, -1, -1  na liniji 45
+Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 48
+Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 48
+Koristi se konstanta Con first: int, 1, 0  na liniji 48
+Koristi se konstanta Con first: int, 1, 0  na liniji 48
+Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 49
+Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 52
+Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 53
+Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 53
+Koristi se lokalna promenljiva Var res: int, 0, 1  na liniji 54
+=====================SYMBOL TABLE DUMP=========================
+Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: , -1, -1 
+Prog nivoA: notype, 0, 1 
+   Var nizch: Arr of char, 0, 0 
+   Var niz: Arr of int, 1, 0 
+   Type Brojevi: , 0, 0 
+   Con first: int, 1, 0 
+   Var flag: , 2, 0 
+   Meth main: notype, 0, 0 
+      Var res: int, 0, 1 
+      Var col1: int, 1, 1 
+      Var col2: int, 2, 1 
+      Var col3: int, 3, 1 
+
+
+

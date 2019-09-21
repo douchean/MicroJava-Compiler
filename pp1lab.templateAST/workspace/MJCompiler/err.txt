@@ -1,0 +1,5 @@
+Imena i vrednosti clanova nabrajanja moraju biti jedinstveni!: BY_ONE na liniji 4
+Greska na liniji 15 : tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije sum
+Greska na liniji 42 : broj elemenata niza mora odgovarati njegovoj velicini
+Greska na liniji 44 : tipovi niza i njegovih elemenata moraju biti isti.
+Greska na liniji 50 : nekompatibilni tipovi stvarnih i formalnih argumenata type, metode inkrement! 

@@ -1,0 +1,301 @@
+INFO  23:39:55,173 - Compiling source file: C:\Users\Dusan\Desktop\micko\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:39:55,366 - #2 program
+INFO  23:39:55,367 - #15 test2
+INFO  23:39:55,367 - #40 enum
+INFO  23:39:55,370 - #15 Months
+INFO  23:39:55,370 - #3 {
+INFO  23:39:55,371 - #15 January
+INFO  23:39:55,371 - #8 ,
+INFO  23:39:55,373 - #15 February
+INFO  23:39:55,373 - #8 ,
+INFO  23:39:55,374 - #15 March
+INFO  23:39:55,374 - #8 ,
+INFO  23:39:55,374 - #15 April
+INFO  23:39:55,375 - #8 ,
+INFO  23:39:55,375 - #15 May
+INFO  23:39:55,375 - #8 ,
+INFO  23:39:55,375 - #15 June
+INFO  23:39:55,375 - #8 ,
+INFO  23:39:55,376 - #15 July
+INFO  23:39:55,376 - #8 ,
+INFO  23:39:55,376 - #15 August
+INFO  23:39:55,376 - #8 ,
+INFO  23:39:55,376 - #15 September
+INFO  23:39:55,377 - #8 ,
+INFO  23:39:55,377 - #15 October
+INFO  23:39:55,377 - #8 ,
+INFO  23:39:55,377 - #15 November
+INFO  23:39:55,377 - #8 ,
+INFO  23:39:55,377 - #15 December
+INFO  23:39:55,377 - #4 }
+INFO  23:39:55,377 - #40 enum
+INFO  23:39:55,379 - #15 Days
+INFO  23:39:55,379 - #3 {
+INFO  23:39:55,379 - #15 Monday
+INFO  23:39:55,379 - #8 ,
+INFO  23:39:55,380 - #15 Tuesday
+INFO  23:39:55,380 - #8 ,
+INFO  23:39:55,380 - #15 Wednesday
+INFO  23:39:55,380 - #8 ,
+INFO  23:39:55,380 - #15 Thursday
+INFO  23:39:55,380 - #8 ,
+INFO  23:39:55,380 - #15 Friday
+INFO  23:39:55,381 - #8 ,
+INFO  23:39:55,381 - #15 Saturday
+INFO  23:39:55,381 - #8 ,
+INFO  23:39:55,381 - #15 Sunday
+INFO  23:39:55,381 - #4 }
+INFO  23:39:55,381 - #15 int
+INFO  23:39:55,381 - #15 day
+INFO  23:39:55,383 - #5 ;
+INFO  23:39:55,388 - #15 int
+INFO  23:39:55,388 - #15 d
+INFO  23:39:55,389 - #5 ;
+INFO  23:39:55,389 - #15 bool
+INFO  23:39:55,389 - #15 ibool
+INFO  23:39:55,389 - #5 ;
+INFO  23:39:55,390 - #15 char
+INFO  23:39:55,390 - #15 f
+INFO  23:39:55,390 - #5 ;
+INFO  23:39:55,390 - #15 char
+INFO  23:39:55,398 - #15 s
+INFO  23:39:55,398 - #5 ;
+INFO  23:39:55,398 - #15 int
+INFO  23:39:55,399 - #15 niz
+INFO  23:39:55,399 - #41 [
+INFO  23:39:55,399 - #42 ]
+INFO  23:39:55,399 - #5 ;
+INFO  23:39:55,401 - #3 {
+INFO  23:39:55,401 - #15 int
+INFO  23:39:55,402 - #15 getDay
+INFO  23:39:55,403 - #6 (
+INFO  23:39:55,403 - #15 char
+INFO  23:39:55,403 - #15 fst
+INFO  23:39:55,403 - #8 ,
+INFO  23:39:55,405 - #15 char
+INFO  23:39:55,405 - #15 snd
+INFO  23:39:55,405 - #7 )
+INFO  23:39:55,406 - #3 {
+INFO  23:39:55,407 - #15 day
+INFO  23:39:55,408 - #12 =
+INFO  23:39:55,408 - #47 0
+INFO  23:39:55,409 - #5 ;
+INFO  23:39:55,410 - #16 if
+INFO  23:39:55,410 - #6 (
+INFO  23:39:55,410 - #15 fst
+INFO  23:39:55,411 - #29 ==
+INFO  23:39:55,411 - #48 m
+INFO  23:39:55,413 - #25 &&
+INFO  23:39:55,414 - #15 snd
+INFO  23:39:55,415 - #29 ==
+INFO  23:39:55,415 - #48 o
+INFO  23:39:55,415 - #7 )
+INFO  23:39:55,417 - #3 {
+INFO  23:39:55,417 - #15 day
+INFO  23:39:55,417 - #12 =
+INFO  23:39:55,417 - #47 1
+INFO  23:39:55,417 - #5 ;
+INFO  23:39:55,417 - #4 }
+INFO  23:39:55,417 - #16 if
+INFO  23:39:55,418 - #6 (
+INFO  23:39:55,418 - #15 fst
+INFO  23:39:55,418 - #29 ==
+INFO  23:39:55,419 - #48 t
+INFO  23:39:55,419 - #25 &&
+INFO  23:39:55,419 - #15 snd
+INFO  23:39:55,419 - #29 ==
+INFO  23:39:55,419 - #48 u
+INFO  23:39:55,420 - #7 )
+INFO  23:39:55,420 - #3 {
+INFO  23:39:55,420 - #15 day
+INFO  23:39:55,420 - #12 =
+INFO  23:39:55,420 - #47 2
+INFO  23:39:55,420 - #5 ;
+INFO  23:39:55,420 - #4 }
+INFO  23:39:55,420 - #16 if
+INFO  23:39:55,421 - #6 (
+INFO  23:39:55,421 - #15 fst
+INFO  23:39:55,421 - #29 ==
+INFO  23:39:55,421 - #48 w
+INFO  23:39:55,422 - #25 &&
+INFO  23:39:55,422 - #15 snd
+INFO  23:39:55,422 - #29 ==
+INFO  23:39:55,422 - #48 e
+INFO  23:39:55,422 - #7 )
+INFO  23:39:55,423 - #3 {
+INFO  23:39:55,423 - #15 day
+INFO  23:39:55,423 - #12 =
+INFO  23:39:55,423 - #47 3
+INFO  23:39:55,424 - #5 ;
+INFO  23:39:55,424 - #4 }
+INFO  23:39:55,424 - #16 if
+INFO  23:39:55,424 - #6 (
+INFO  23:39:55,425 - #15 fst
+INFO  23:39:55,425 - #29 ==
+INFO  23:39:55,426 - #48 t
+INFO  23:39:55,427 - #25 &&
+INFO  23:39:55,427 - #15 snd
+INFO  23:39:55,428 - #29 ==
+INFO  23:39:55,428 - #48 h
+INFO  23:39:55,428 - #7 )
+INFO  23:39:55,429 - #3 {
+INFO  23:39:55,429 - #15 day
+INFO  23:39:55,429 - #12 =
+INFO  23:39:55,429 - #47 4
+INFO  23:39:55,429 - #5 ;
+INFO  23:39:55,429 - #4 }
+INFO  23:39:55,430 - #16 if
+INFO  23:39:55,430 - #6 (
+INFO  23:39:55,430 - #15 fst
+INFO  23:39:55,430 - #29 ==
+INFO  23:39:55,430 - #48 f
+INFO  23:39:55,430 - #25 &&
+INFO  23:39:55,430 - #15 snd
+INFO  23:39:55,430 - #29 ==
+INFO  23:39:55,430 - #48 r
+INFO  23:39:55,431 - #7 )
+INFO  23:39:55,431 - #3 {
+INFO  23:39:55,431 - #15 day
+INFO  23:39:55,431 - #12 =
+INFO  23:39:55,431 - #47 5
+INFO  23:39:55,431 - #5 ;
+INFO  23:39:55,431 - #4 }
+INFO  23:39:55,431 - #16 if
+INFO  23:39:55,431 - #6 (
+INFO  23:39:55,431 - #15 fst
+INFO  23:39:55,432 - #29 ==
+INFO  23:39:55,432 - #48 s
+INFO  23:39:55,432 - #25 &&
+INFO  23:39:55,432 - #15 snd
+INFO  23:39:55,432 - #29 ==
+INFO  23:39:55,432 - #48 a
+INFO  23:39:55,432 - #7 )
+INFO  23:39:55,432 - #3 {
+INFO  23:39:55,433 - #15 day
+INFO  23:39:55,433 - #12 =
+INFO  23:39:55,433 - #47 6
+INFO  23:39:55,433 - #5 ;
+INFO  23:39:55,433 - #4 }
+INFO  23:39:55,433 - #16 if
+INFO  23:39:55,433 - #6 (
+INFO  23:39:55,434 - #15 fst
+INFO  23:39:55,434 - #29 ==
+INFO  23:39:55,434 - #48 s
+INFO  23:39:55,434 - #25 &&
+INFO  23:39:55,435 - #15 snd
+INFO  23:39:55,435 - #29 ==
+INFO  23:39:55,435 - #48 u
+INFO  23:39:55,435 - #7 )
+INFO  23:39:55,435 - #3 {
+INFO  23:39:55,436 - #15 day
+INFO  23:39:55,436 - #12 =
+INFO  23:39:55,436 - #47 7
+INFO  23:39:55,436 - #5 ;
+INFO  23:39:55,437 - #4 }
+INFO  23:39:55,437 - #10 return
+INFO  23:39:55,437 - #15 day
+INFO  23:39:55,437 - #5 ;
+INFO  23:39:55,437 - #4 }
+INFO  23:39:55,437 - #13 void
+INFO  23:39:55,440 - #15 main
+INFO  23:39:55,440 - #6 (
+INFO  23:39:55,440 - #7 )
+INFO  23:39:55,440 - #3 {
+INFO  23:39:55,441 - #15 niz
+INFO  23:39:55,442 - #12 =
+INFO  23:39:55,442 - #27 new
+INFO  23:39:55,442 - #15 int
+INFO  23:39:55,442 - #41 [
+INFO  23:39:55,442 - #47 7
+INFO  23:39:55,443 - #42 ]
+INFO  23:39:55,443 - #3 {
+INFO  23:39:55,444 - #15 Days
+INFO  23:39:55,445 - #28 .
+INFO  23:39:55,445 - #15 Monday
+INFO  23:39:55,445 - #8 ,
+INFO  23:39:55,446 - #15 Days
+INFO  23:39:55,447 - #28 .
+INFO  23:39:55,447 - #15 Tuesday
+INFO  23:39:55,447 - #8 ,
+INFO  23:39:55,447 - #15 Days
+INFO  23:39:55,447 - #28 .
+INFO  23:39:55,447 - #15 Wednesday
+INFO  23:39:55,448 - #8 ,
+INFO  23:39:55,448 - #15 Days
+INFO  23:39:55,448 - #28 .
+INFO  23:39:55,448 - #15 Thursday
+INFO  23:39:55,448 - #8 ,
+INFO  23:39:55,448 - #15 Days
+INFO  23:39:55,448 - #28 .
+INFO  23:39:55,448 - #15 Friday
+INFO  23:39:55,449 - #8 ,
+INFO  23:39:55,449 - #15 Days
+INFO  23:39:55,449 - #28 .
+INFO  23:39:55,449 - #15 Saturday
+INFO  23:39:55,449 - #8 ,
+INFO  23:39:55,449 - #15 Days
+INFO  23:39:55,449 - #28 .
+INFO  23:39:55,450 - #15 Sunday
+INFO  23:39:55,450 - #4 }
+INFO  23:39:55,450 - #5 ;
+INFO  23:39:55,451 - #21 read
+INFO  23:39:55,451 - #6 (
+INFO  23:39:55,451 - #15 f
+INFO  23:39:55,451 - #7 )
+INFO  23:39:55,451 - #5 ;
+INFO  23:39:55,451 - #21 read
+INFO  23:39:55,452 - #6 (
+INFO  23:39:55,452 - #15 s
+INFO  23:39:55,452 - #7 )
+INFO  23:39:55,453 - #5 ;
+INFO  23:39:55,453 - #15 d
+INFO  23:39:55,453 - #12 =
+INFO  23:39:55,453 - #15 getDay
+INFO  23:39:55,453 - #6 (
+INFO  23:39:55,453 - #15 f
+INFO  23:39:55,454 - #8 ,
+INFO  23:39:55,456 - #15 s
+INFO  23:39:55,456 - #7 )
+INFO  23:39:55,457 - #5 ;
+INFO  23:39:55,458 - #9 print
+INFO  23:39:55,458 - #6 (
+INFO  23:39:55,458 - #15 d
+INFO  23:39:55,458 - #7 )
+INFO  23:39:55,458 - #5 ;
+INFO  23:39:55,458 - #4 }
+INFO  23:39:55,459 - #4 }
+INFO  23:39:55,520 - Koristi se globalna promenljiva Var day: int, 0, 0  na liniji 20
+INFO  23:39:55,520 - Koristi se formalni parametar funkcije Var fst: char, 0, 1  na liniji 22
+INFO  23:39:55,520 - Koristi se formalni parametar funkcije Var snd: char, 1, 1  na liniji 22
+INFO  23:39:55,521 - Koristi se globalna promenljiva Var day: int, 0, 0  na liniji 22
+INFO  23:39:55,521 - Koristi se formalni parametar funkcije Var fst: char, 0, 1  na liniji 24
+INFO  23:39:55,521 - Koristi se formalni parametar funkcije Var snd: char, 1, 1  na liniji 24
+INFO  23:39:55,521 - Koristi se globalna promenljiva Var day: int, 0, 0  na liniji 24
+INFO  23:39:55,521 - Koristi se formalni parametar funkcije Var fst: char, 0, 1  na liniji 26
+INFO  23:39:55,521 - Koristi se formalni parametar funkcije Var snd: char, 1, 1  na liniji 26
+INFO  23:39:55,521 - Koristi se globalna promenljiva Var day: int, 0, 0  na liniji 26
+INFO  23:39:55,522 - Koristi se formalni parametar funkcije Var fst: char, 0, 1  na liniji 28
+INFO  23:39:55,522 - Koristi se formalni parametar funkcije Var snd: char, 1, 1  na liniji 28
+INFO  23:39:55,522 - Koristi se globalna promenljiva Var day: int, 0, 0  na liniji 28
+INFO  23:39:55,522 - Koristi se formalni parametar funkcije Var fst: char, 0, 1  na liniji 30
+INFO  23:39:55,522 - Koristi se formalni parametar funkcije Var snd: char, 1, 1  na liniji 30
+INFO  23:39:55,522 - Koristi se globalna promenljiva Var day: int, 0, 0  na liniji 30
+INFO  23:39:55,522 - Koristi se formalni parametar funkcije Var fst: char, 0, 1  na liniji 32
+INFO  23:39:55,522 - Koristi se formalni parametar funkcije Var snd: char, 1, 1  na liniji 32
+INFO  23:39:55,523 - Koristi se globalna promenljiva Var day: int, 0, 0  na liniji 32
+INFO  23:39:55,523 - Koristi se formalni parametar funkcije Var fst: char, 0, 1  na liniji 34
+INFO  23:39:55,523 - Koristi se formalni parametar funkcije Var snd: char, 1, 1  na liniji 34
+INFO  23:39:55,523 - Koristi se globalna promenljiva Var day: int, 0, 0  na liniji 34
+INFO  23:39:55,523 - Koristi se globalna promenljiva Var day: int, 0, 0  na liniji 37
+INFO  23:39:55,524 - Koristi se globalna promenljiva Var niz: Arr of int, 5, 0  na liniji 43
+INFO  23:39:55,524 - Koristi se globalna promenljiva Var f: char, 3, 0  na liniji 45
+INFO  23:39:55,524 - Koristi se globalna promenljiva Var s: char, 4, 0  na liniji 46
+INFO  23:39:55,524 - Koristi se globalna promenljiva Var d: int, 1, 0  na liniji 48
+INFO  23:39:55,524 - Koristi se globalna promenljiva Var f: char, 3, 0  na liniji 48
+INFO  23:39:55,525 - Koristi se globalna promenljiva Var s: char, 4, 0  na liniji 48
+INFO  23:39:55,525 - Poziva se funkcija Meth getDay: int, 0, 2 
+   Var fst: char, 0, 1 
+   Var snd: char, 1, 1 
+ na liniji 48
+INFO  23:39:55,525 - Koristi se globalna promenljiva Var d: int, 1, 0  na liniji 49
+INFO  23:39:55,526 - Generating bytecode file: C:\Users\Dusan\Desktop\micko\pp1lab.templateAST\workspace\MJCompiler\test\program.obj

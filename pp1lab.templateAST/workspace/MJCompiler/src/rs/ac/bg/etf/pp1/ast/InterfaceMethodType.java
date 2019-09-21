@@ -1,0 +1,91 @@
+// generated with ast extension for cup
+// version 0.8
+// 22/5/2019 0:52:12
+
+
+package rs.ac.bg.etf.pp1.ast;
+
+public class InterfaceMethodType extends InterfaceMethodDecl {
+
+    private Type Type;
+    private String methName;
+    private FormParsArg FormParsArg;
+
+    public InterfaceMethodType (Type Type, String methName, FormParsArg FormParsArg) {
+        this.Type=Type;
+        if(Type!=null) Type.setParent(this);
+        this.methName=methName;
+        this.FormParsArg=FormParsArg;
+        if(FormParsArg!=null) FormParsArg.setParent(this);
+    }
+
+    public Type getType() {
+        return Type;
+    }
+
+    public void setType(Type Type) {
+        this.Type=Type;
+    }
+
+    public String getMethName() {
+        return methName;
+    }
+
+    public void setMethName(String methName) {
+        this.methName=methName;
+    }
+
+    public FormParsArg getFormParsArg() {
+        return FormParsArg;
+    }
+
+    public void setFormParsArg(FormParsArg FormParsArg) {
+        this.FormParsArg=FormParsArg;
+    }
+
+    public void accept(Visitor visitor) {
+        visitor.visit(this);
+    }
+
+    public void childrenAccept(Visitor visitor) {
+        if(Type!=null) Type.accept(visitor);
+        if(FormParsArg!=null) FormParsArg.accept(visitor);
+    }
+
+    public void traverseTopDown(Visitor visitor) {
+        accept(visitor);
+        if(Type!=null) Type.traverseTopDown(visitor);
+        if(FormParsArg!=null) FormParsArg.traverseTopDown(visitor);
+    }
+
+    public void traverseBottomUp(Visitor visitor) {
+        if(Type!=null) Type.traverseBottomUp(visitor);
+        if(FormParsArg!=null) FormParsArg.traverseBottomUp(visitor);
+        accept(visitor);
+    }
+
+    public String toString(String tab) {
+        StringBuffer buffer=new StringBuffer();
+        buffer.append(tab);
+        buffer.append("InterfaceMethodType(\n");
+
+        if(Type!=null)
+            buffer.append(Type.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
+        buffer.append("\n");
+
+        buffer.append(" "+tab+methName);
+        buffer.append("\n");
+
+        if(FormParsArg!=null)
+            buffer.append(FormParsArg.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
+        buffer.append("\n");
+
+        buffer.append(tab);
+        buffer.append(") [InterfaceMethodType]");
+        return buffer.toString();
+    }
+}
